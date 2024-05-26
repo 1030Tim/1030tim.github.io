@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(225, 238, 224); /* 設置背景顏色為淡綠色 */
+    margin: 0px; /* 移除所有瀏覽器默認的外邊距 */
+    text-align: center; /* 將正文內容置中對齊 */
+}
+
+.navbar {
+    background-color: rgb(69, 87, 69); /* 設置導航欄背景顏色為深綠色 */
+    padding: 20px; /* 設置導航欄內邊距為 20 像素 */
+    text-align: center; /* 將導航欄內容置中對齊 */
+}
+
+.navbar a {
+    color: white; /* 設置導航欄連結文字顏色為白色 */
+    text-decoration: none; /* 移除導航欄連結的下劃線 */
+    margin-left: 15px; /* 設置連結左側外邊距為 15 像素 */
+    margin-right: 15px; /* 設置連結右側外邊距為 15 像素 */
+}
+
+h1 {
+    font-size: 50px; /* 設置標題字體大小為 50 像素 */
+}
+
+.logo {
+    border-style: solid; /* 設置邊框樣式為實線 */
+    border-color: rgb(70, 122, 70); /* 設置邊框顏色為中綠色 */
+    border-width: 7px; /* 設置邊框寬度為 7 像素 */
+    border-radius: 500px; /* 設置邊框圓角半徑為 500 像素，使其呈現圓形 */
+}
+
+.description {
+    background-color: rgb(185, 207, 185); /* 設置描述區塊背景顏色為淺綠色 */
+    padding: 50px; /* 設置描述區塊內邊距為 50 像素 */
+    margin-top: 50px; /* 設置描述區塊上方外邊距為 50 像素 */
+    margin-bottom: 50px; /* 設置描述區塊下方外邊距為 50 像素 */
+    width: 600px; /* 設置描述區塊寬度為 600 像素 */
+    border-radius: 20px; /* 設置描述區塊邊框圓角半徑為 20 像素 */
+    margin-left: auto; /* 將描述區塊左側外邊距設置為自動，使其水平居中 */
+    margin-right: auto; /* 將描述區塊右側外邊距設置為自動，使其水平居中 */
+}
+
+.btn {
+    background-color: green; /* 設置按鈕背景顏色為綠色 */
+    color: white; /* 設置按鈕文字顏色為白色 */
+    border-style: none; /* 移除按鈕邊框 */
+    padding: 15px; /* 設置按鈕內邊距為 15 像素 */
+    border-radius: 10px; /* 設置按鈕邊框圓角半徑為 10 像素 */
+    margin-bottom: 50px; /* 設置按鈕底部外邊距為 50 像素 */
+}
+
+.btn:hover {
+    background-color: rgb(0, 90, 0); /* 當按鈕被懸停時，設置背景顏色為深綠色 */
+}
