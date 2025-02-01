@@ -1,0 +1,419 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>進位制 | Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="電腦的組成進位 十進制生活中的進位制是十進制，這種進位制通常使用10個阿拉伯數字（即 0-9 ）進行記數0 1 2 3 4 5 6 7 8 9 10  二進制幾乎所有的電子計算機內部都使用二進位制，分別為「0」和「1」表示「關」和「開」。用於大多數電子計數器。0 1 10 11 100 101 110 111 1000 1001 1010 1011  十六進制	經常用於計算機領域，2到4次冪。十六">
+<meta property="og:type" content="article">
+<meta property="og:title" content="進位制">
+<meta property="og:url" content="http://example.com/2024/09/12/%E9%80%B2%E4%BD%8D%E5%88%B6/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="電腦的組成進位 十進制生活中的進位制是十進制，這種進位制通常使用10個阿拉伯數字（即 0-9 ）進行記數0 1 2 3 4 5 6 7 8 9 10  二進制幾乎所有的電子計算機內部都使用二進位制，分別為「0」和「1」表示「關」和「開」。用於大多數電子計數器。0 1 10 11 100 101 110 111 1000 1001 1010 1011  十六進制	經常用於計算機領域，2到4次冪。十六">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg">
+<meta property="article:published_time" content="2024-09-12T12:53:03.000Z">
+<meta property="article:modified_time" content="2025-02-01T04:05:02.287Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="計算機概論">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "進位制",
+  "url": "http://example.com/2024/09/12/%E9%80%B2%E4%BD%8D%E5%88%B6/",
+  "image": "https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg",
+  "datePublished": "2024-09-12T12:53:03.000Z",
+  "dateModified": "2025-02-01T04:05:02.287Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "John Doe",
+      "url": "http://example.com/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/09/12/%E9%80%B2%E4%BD%8D%E5%88%B6/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: {"chs_to_cht":"You have switched to Traditional Chinese","cht_to_chs":"You have switched to Simplified Chinese","day_to_night":"You have switched to Dark Mode","night_to_day":"You have switched to Light Mode","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '進位制',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load', preloader.endLoading)
+
+  if (false) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-list"></i><span> 文件</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> 分類</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Hexo</span></a><a class="nav-page-title" href="/"><span class="site-name">進位制</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-list"></i><span> 文件</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> 分類</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">進位制</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-09-12T12:53:03.000Z" title="Created 2024-09-12 20:53:03">2024-09-12</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-02-01T04:05:02.287Z" title="Updated 2025-02-01 12:05:02">2025-02-01</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:365,&quot;messagePrev&quot;:&quot;It has been&quot;,&quot;messageNext&quot;:&quot;days since the last update, the content of the article may be outdated.&quot;,&quot;postUpdate&quot;:&quot;2025-02-01 12:05:02&quot;}" hidden></div><h1 id="電腦的組成"><a href="#電腦的組成" class="headerlink" title="電腦的組成"></a>電腦的組成</h1><h1 id="進位"><a href="#進位" class="headerlink" title="進位"></a>進位</h1><ul>
+<li><p>十進制<br>生活中的進位制是十進制，這種進位制通常使用10個阿拉伯數字（即 0-9 ）進行記數<br>0 1 2 3 4 5 6 7 8 9 10</p>
+</li>
+<li><p>二進制<br>幾乎所有的電子計算機內部都使用二進位制，分別為「0」和「1」表示「關」和「開」。用於大多數電子計數器。<br>0 1 10 11 100 101 110 111 1000 1001 1010 1011</p>
+</li>
+<li><p>十六進制	<br>經常用於計算機領域，2到4次冪。十六位數字為「0-9」，接著是「A-F」。<br>0 1 2 3 4 5 6 7 8 9 A B C D E F 10</p>
+</li>
+</ul>
+<h2 id="10進位轉2進位"><a href="#10進位轉2進位" class="headerlink" title="10進位轉2進位"></a>10進位轉2進位</h2><p>67(十進位) </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">67÷2 = 33...1</span><br><span class="line">33÷2 = 16...1</span><br><span class="line">16÷2 = 8....0</span><br><span class="line">8÷2 = 4...0</span><br><span class="line">4÷2 = 2...0</span><br><span class="line">2÷2 = 1...0</span><br><span class="line">1÷2 = 0...1</span><br></pre></td></tr></table></figure>
+<p>所以二進制就是 1000011</p>
+<h2 id="2進位轉16進位"><a href="#2進位轉16進位" class="headerlink" title="2進位轉16進位"></a>2進位轉16進位</h2><p>10110011</p>
+<p>先拆解數字<br>1011與0011</p>
+<p>1011 &#x3D; B<br>0011 &#x3D; 3</p>
+<p>所以10110011 &#x3D; B3</p>
+<h1 id="2進位轉成10進位"><a href="#2進位轉成10進位" class="headerlink" title="2進位轉成10進位"></a>2進位轉成10進位</h1><p>1101<br>就如我們小時候學的數學一樣</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">千 百 十 個</span><br><span class="line">1  1  0  1</span><br></pre></td></tr></table></figure>
+
+<p>個 2^0 * 1 &#x3D; 1<br>十 2^1 *0 &#x3D; 0<br>百 2^2 *1 &#x3D; 4<br>千 2^3 *1 &#x3D; 8</p>
+<p>1+0+4+8 &#x3D; 13</p>
+<p>1101(二進制) 的十進制就是 13(十進制)</p>
+<hr>
+<h2 id="title-計算機概論6date-2024-10-16-08-58-19tags"><a href="#title-計算機概論6date-2024-10-16-08-58-19tags" class="headerlink" title="title: 計算機概論6date: 2024-10-16 08:58:19tags:"></a>title: 計算機概論6<br>date: 2024-10-16 08:58:19<br>tags:</h2><h1 id="overflow-溢位"><a href="#overflow-溢位" class="headerlink" title="overflow 溢位"></a>overflow 溢位</h1><p>七進制舉例</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">    <span class="number">0</span> <span class="number">1</span> <span class="number">1</span> <span class="number">1.</span>   +<span class="number">7</span></span><br><span class="line"></span><br><span class="line">“+” <span class="number">0</span> <span class="number">1</span> <span class="number">1</span> <span class="number">1.</span>   +<span class="number">7</span></span><br><span class="line">-----------------</span><br><span class="line">    <span class="number">1</span> <span class="number">1</span> <span class="number">1</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+<p>第四位數如果原本是正數加完之後如果變成負數就是超過表示範圍</p>
+<p>1001  →  0110 → 0111</p>
+<p>補數可以說是將數值變成負數</p>
+<p>1001 &#x3D; -7</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> <span class="number">1001</span> = -<span class="number">7</span></span><br><span class="line"></span><br><span class="line">+<span class="number">1001</span> = -<span class="number">7</span></span><br><span class="line">-------</span><br><span class="line"> <span class="number">00</span>10</span><br></pre></td></tr></table></figure>
+
+<p>一個負數加一個負數 &#x3D; 正數 &#x3D; overflow</p>
+<p>一個正數加一個正數 &#x3D; 負數 &#x3D; overflow</p>
+<h1 id="練習"><a href="#練習" class="headerlink" title="練習"></a>練習</h1><p>11100110 十進制答案</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">11100110</span> -&gt; 00011001 （一的補數）-&gt; 00011010 （二的補數）= -<span class="number">26</span> </span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p><strong>解釋</strong></p>
+<p>  <strong>原始二進制數：</strong></p>
+<p>  •    11100110</p>
+<p>  這是一個 8 位的二進制數，表示它是用來表示一個 <strong>有符號的數字</strong>，其中最高位（最左邊的 1）是符號位。當最高位是 1 時，這個數是負數；當最高位是 0 時，這個數是正數。</p>
+<p>  <strong>2. 求一的補數：</strong></p>
+<p>  •    將每個位的數字反轉，將 1 變成 0，0 變成 1。</p>
+<p>  •    原數字是 11100110，它的一的補數是 00011001。</p>
+<p>  <strong>3. 求二的補數：</strong></p>
+<p>  •    在一的補數基礎上加上 1。</p>
+<p>  •    00011001 + 1 &#x3D; 00011010。</p>
+<p>  <strong>4. 將二進制數轉換為十進制數：</strong></p>
+<p>  •    現在，我們已經得到了 00011010，它是二的補數形式，用來表示負數。</p>
+<p>  •    00011010 &#x3D; 26（十進制）。</p>
+</li>
+</ul>
+<h2 id="檢查碼"><a href="#檢查碼" class="headerlink" title="檢查碼"></a>檢查碼</h2><ul>
+<li>例如身份字號F233456789</li>
+<li>其中F代表地區</li>
+<li>剩下七個數字為流水號</li>
+</ul>
+<h2 id="Big-5編碼規則（可變長度編碼）"><a href="#Big-5編碼規則（可變長度編碼）" class="headerlink" title="Big - 5編碼規則（可變長度編碼）"></a>Big - 5編碼規則（可變長度編碼）</h2><ul>
+<li>兩個byte代表一個漢字</li>
+<li>想辦法與英文字母相容</li>
+</ul>
+<p>分首碼次碼，高位元的在前面</p>
+<p><img src="https://idv.sinica.edu.tw/bear/charcodes/images/fig9-2.gif" alt="cscl.png"></p>
+<h3 id="舉例：big-5-cont’"><a href="#舉例：big-5-cont’" class="headerlink" title="舉例：big-5 (cont’)"></a>舉例：big-5 (cont’)</h3><ul>
+<li><p>0  一   Ａ4440</p>
+</li>
+<li><p>1  乙    A4440</p>
+</li>
+<li><p>3  丁    A4440</p>
+</li>
+<li><p>5400 籲 C67E</p>
+</li>
+<li><p>5401 乂 C940</p>
+</li>
+<li><p>5402 乜 C941</p>
+</li>
+<li><p>5403 凵 C942</p>
+</li>
+<li><p>5404 匚 C943</p>
+</li>
+<li><p>5405 厂 C944</p>
+</li>
+<li><p>5406 万 C945</p>
+</li>
+<li><p>5407 丌 C946</p>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://web.tnu.edu.tw/me/study/moodle/tutor/vb6/tutor/r05/index.htm">https://web.tnu.edu.tw/me/study/moodle/tutor/vb6/tutor/r05/index.htm</a></p>
+<p>其中有 408 個符號和所謂常用字 5401 個,<br>次常用字 7652 個</p>
+<h2 id="輸入法"><a href="#輸入法" class="headerlink" title="輸入法"></a>輸入法</h2><ul>
+<li>字音輸入法<ul>
+<li>注音</li>
+<li>拼音</li>
+</ul>
+</li>
+<li>字型輸入法<ul>
+<li>倉頡</li>
+<li>大易</li>
+</ul>
+</li>
+</ul>
+<p>假如在鍵盤上我們可以應用的按件數是n</p>
+<p>則n個鍵可以組成</p>
+<p>$ n +n^2+n^3+…..</p>
+<h3 id="舉例"><a href="#舉例" class="headerlink" title="舉例"></a>舉例</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">0 1 1 0  ———&gt;  6</span><br><span class="line"></span><br><span class="line">1  1 1 0 ———&gt;   -6</span><br><span class="line"></span><br><span class="line">0 0 0 0 ——→     0</span><br><span class="line"></span><br><span class="line">1  0 0 0 ———&gt;  -0 [x]</span><br><span class="line"></span><br><span class="line">加法</span><br><span class="line"></span><br><span class="line">     0  1   1   0</span><br><span class="line"></span><br><span class="line">+   1   1   1   0</span><br><span class="line">--------------------</span><br><span class="line"></span><br><span class="line">	0   1   0   0</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>上面是錯誤的</p>
+<p>每個輸入法都有規則，開頭的第一位是1就是負數0就是正數</p>
+<p>也可以用2的補數表去計算</p>
+<h3 id="正確"><a href="#正確" class="headerlink" title="正確"></a>正確</h3><p>1   1   0  1 舉例</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">1101  2進位轉成 10進位</span><br><span class="line"></span><br><span class="line">1 1 0 1 前面第一個是1 代表示負數</span><br><span class="line"></span><br><span class="line">所以要取二的補數</span><br><span class="line"></span><br><span class="line">1 1 0 1  → 0 0 1 0 = 一的補數第一位再加一 = 2 的補數</span><br><span class="line"></span><br><span class="line">0 0 1 0</span><br><span class="line">+     1</span><br><span class="line">--------</span><br><span class="line">0 0 1 1 (2進位） =  - 3(十進位）</span><br></pre></td></tr></table></figure>
+
+<p>轉換後之後記得加上負號</p>
+<p>-7 寫出2的補數表</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">7 = 0111</span><br><span class="line"></span><br><span class="line">0111 → 1000 = 一的補數再加一 = 二的補數  = 1001(二的補數）</span><br></pre></td></tr></table></figure>
+
+<p>1 0 0 0的補數  &#x3D; 1 0 0 0</p>
+<p>為什麼？</p>
+<ul>
+<li>因為在4位2進制下多出來的會被拋棄</li>
+</ul>
+<p>4位補數的範圍</p>
+<table>
+<thead>
+<tr>
+<th>二進制</th>
+<th>十進制</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>0000</code></td>
+<td>0</td>
+<td>正數 0</td>
+</tr>
+<tr>
+<td><code>0001</code></td>
+<td>+1</td>
+<td>正數 1</td>
+</tr>
+<tr>
+<td><code>0010</code></td>
+<td>+2</td>
+<td>正數 2</td>
+</tr>
+<tr>
+<td><code>0011</code></td>
+<td>+3</td>
+<td>正數 3</td>
+</tr>
+<tr>
+<td><code>0100</code></td>
+<td>+4</td>
+<td>正數 4</td>
+</tr>
+<tr>
+<td><code>0101</code></td>
+<td>+5</td>
+<td>正數 5</td>
+</tr>
+<tr>
+<td><code>0110</code></td>
+<td>+6</td>
+<td>正數 6</td>
+</tr>
+<tr>
+<td><code>0111</code></td>
+<td>+7</td>
+<td>正數 7</td>
+</tr>
+<tr>
+<td><code>1000</code></td>
+<td>-8</td>
+<td>負數 -8，特殊情況</td>
+</tr>
+<tr>
+<td><code>1001</code></td>
+<td>-7</td>
+<td>負數 -7</td>
+</tr>
+<tr>
+<td><code>1010</code></td>
+<td>-6</td>
+<td>負數 -6</td>
+</tr>
+<tr>
+<td><code>1011</code></td>
+<td>-5</td>
+<td>負數 -5</td>
+</tr>
+<tr>
+<td><code>1100</code></td>
+<td>-4</td>
+<td>負數 -4</td>
+</tr>
+<tr>
+<td><code>1101</code></td>
+<td>-3</td>
+<td>負數 -3</td>
+</tr>
+<tr>
+<td><code>1110</code></td>
+<td>-2</td>
+<td>負數 -2</td>
+</tr>
+<tr>
+<td><code>1111</code></td>
+<td>-1</td>
+<td>負數 -1</td>
+</tr>
+</tbody></table>
+<h3 id="表達範圍"><a href="#表達範圍" class="headerlink" title="表達範圍"></a>表達範圍</h3><p>4 bits &#x3D; +7 ~ -8</p>
+<p>&#x3D; +2^(4-1) -1 ~ -2(4-1)</p>
+<p>n bits &#x3D; +2^(n-1) -1  ~ -2^(n-1)</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://example.com">John Doe</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://example.com/2024/09/12/%E9%80%B2%E4%BD%8D%E5%88%B6/">http://example.com/2024/09/12/%E9%80%B2%E4%BD%8D%E5%88%B6/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/">計算機概論</a></div><div class="post-share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2024/09/04/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%AD%B7%E5%8F%B2/" title="計算機歷史"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">計算機歷史</div></div><div class="info-2"><div class="info-item-1">初入計算機概論計算機概論是所有電腦的基礎 如果你是國文系的最好修計算機概論如果你是歷史系的最好修計算機概論 快速進入計算 希臘阿基米德以極限求圓面積  羅馬  羅馬數字：非對位系統 羅馬幾乎失聯了所有的希臘知識 例如他們不知道希臘已經認證的地球是個圓形   阿拉伯  大量的翻譯希臘文獻 阿拉伯 採借了印度的數字符號   歐洲  展開了 十字軍東征 的侵略掠奪得到的寶貝 譯成阿拉伯文的希臘文明遺產 十進制阿拉伯數字與計算法      計算機始的重要人物 Blaise Pascal(1623 - 1662)   在11歲時自行發展歐氏幾何，並證明「三角形內角和為 180°」Pascal在19歲到21歲為了幫助父親課稅，發明了堪稱史上最早的計算機械。Pascal 24歲，開始進行大氣壓力的實驗， 並發現大氣壓力隨海拔增高而減少的事實，並由此得到大氣層外必為真空的結論，  Charles Babbage (1791–1871 )   英國數學家、發明家兼機械工程師。由於提出了差分機與分析機的設計概念，被視為電腦先驅。   Augusta Ada Byron...</div></div></div></a><a class="pagination-related" href="/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" title="python程式設計"><img class="cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">python程式設計</div></div><div class="info-2"><div class="info-item-1">有錯誤麻煩拜託寫信給 jun20061030@gmail.com或填寫此表單 https://forms.gle/8ba6PxkGUZME6V6X6連結 pythont程式設計 作者：Juhn Chen (宇桐）   前言學習目標 學習python的基本語法與邏輯 交叉學習C++與python減少知識落差 實作解題  章節 python是什麼 基本運算與變數 區域變數與全域變數   值的型別 條件判斷與迴圈 陣列與串列 函式與演算法入門  使用工具 IDE：python3 &#x2F; Visual Studio Code 解題平台：ZeroJudge  為什麼要學習程式？學習程式設計時，擁有明確的學習目標至關重要。當面臨困難時，清楚的學習動機能夠幫助你堅持下去，而不會輕易放棄。 Python 可以做什麼？Python 是一種功能強大的程式語言，應用領域廣泛，包括但不限於：  基本運算與自動化處理  物件導向程式設計  數據分析與視覺化  機器學習與人工智慧   python3 跟 C++的差別 強制型 vs. 動態型： 解釋執行 vs....</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9B%BB%E8%85%A6%E7%9A%84%E7%B5%84%E6%88%90"><span class="toc-number">1.</span> <span class="toc-text">電腦的組成</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%80%B2%E4%BD%8D"><span class="toc-number">2.</span> <span class="toc-text">進位</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#10%E9%80%B2%E4%BD%8D%E8%BD%892%E9%80%B2%E4%BD%8D"><span class="toc-number">2.1.</span> <span class="toc-text">10進位轉2進位</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E9%80%B2%E4%BD%8D%E8%BD%8916%E9%80%B2%E4%BD%8D"><span class="toc-number">2.2.</span> <span class="toc-text">2進位轉16進位</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2%E9%80%B2%E4%BD%8D%E8%BD%89%E6%88%9010%E9%80%B2%E4%BD%8D"><span class="toc-number">3.</span> <span class="toc-text">2進位轉成10進位</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%966date-2024-10-16-08-58-19tags"><span class="toc-number">3.1.</span> <span class="toc-text">title: 計算機概論6date: 2024-10-16 08:58:19tags:</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#overflow-%E6%BA%A2%E4%BD%8D"><span class="toc-number">4.</span> <span class="toc-text">overflow 溢位</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B7%B4%E7%BF%92"><span class="toc-number">5.</span> <span class="toc-text">練習</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AA%A2%E6%9F%A5%E7%A2%BC"><span class="toc-number">5.1.</span> <span class="toc-text">檢查碼</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Big-5%E7%B7%A8%E7%A2%BC%E8%A6%8F%E5%89%87%EF%BC%88%E5%8F%AF%E8%AE%8A%E9%95%B7%E5%BA%A6%E7%B7%A8%E7%A2%BC%EF%BC%89"><span class="toc-number">5.2.</span> <span class="toc-text">Big - 5編碼規則（可變長度編碼）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%88%89%E4%BE%8B%EF%BC%9Abig-5-cont%E2%80%99"><span class="toc-number">5.2.1.</span> <span class="toc-text">舉例：big-5 (cont’)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BC%B8%E5%85%A5%E6%B3%95"><span class="toc-number">5.3.</span> <span class="toc-text">輸入法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%88%89%E4%BE%8B"><span class="toc-number">5.3.1.</span> <span class="toc-text">舉例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A3%E7%A2%BA"><span class="toc-number">5.3.2.</span> <span class="toc-text">正確</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E9%81%94%E7%AF%84%E5%9C%8D"><span class="toc-number">5.3.3.</span> <span class="toc-text">表達範圍</span></a></li></ol></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg);"><div id="footer-wrap"><div class="copyright">&copy;2025 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">歡迎與我一起討論</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div class="docsearch-wrap"><div id="docsearch" style="display:none"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css/dist/style.min.css"/><script src="https://cdn.jsdelivr.net/npm/@docsearch/js/dist/umd/index.min.js"></script><script>(() => {
+  docsearch(Object.assign({
+    appId: '',
+    apiKey: '',
+    indexName: '',
+    container: '#docsearch',
+    placeholder: 'serach',
+  }, null))
+
+  const handleClick = () => {
+    document.querySelector('.DocSearch-Button').click()
+  }
+
+  const searchClickFn = () => {
+    btf.addEventListenerPjax(document.querySelector('#search-button > .search'), 'click', handleClick)
+  }
+
+  searchClickFn()
+  window.addEventListener('pjax:complete', searchClickFn)
+})()</script></div></div></body></html>
