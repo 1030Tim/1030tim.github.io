@@ -3,7 +3,7 @@
   <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#117;&#x6e;&#x32;&#x30;&#48;&#x36;&#x31;&#x30;&#x33;&#x30;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#110;&#x32;&#x30;&#48;&#x36;&#49;&#x30;&#51;&#48;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen (宇桐）</li>
 </ul>
@@ -66,7 +66,7 @@
   <entry>
     <title>swiftUI ios製作回顧</title>
     <url>/2024/08/31/swiftUI-ios%E8%A3%BD%E4%BD%9C/</url>
-    <content><![CDATA[<h1 id="SwiftUI-Ios"><a href="#SwiftUI-Ios" class="headerlink" title="SwiftUI Ios"></a>SwiftUI Ios</h1><h2 id="語法介紹"><a href="#語法介紹" class="headerlink" title="語法介紹"></a>語法介紹</h2><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="SwiftUI-Ios"><a href="#SwiftUI-Ios" class="headerlink" title="SwiftUI Ios"></a>SwiftUI Ios</h1><h2 id="語法介紹"><a href="#語法介紹" class="headerlink" title="語法介紹"></a>語法介紹</h2><ul>
 <li>Vstack{ } 垂直堆疊</li>
 </ul>
 <figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">VStack</span> &#123;</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;Hello&quot;</span>)</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -94,7 +94,7 @@
   <entry>
     <title>感謝生命中的你</title>
     <url>/2024/09/01/%E6%84%9F%E8%AC%9D%E7%94%9F%E5%91%BD%E4%B8%AD%E7%9A%84%E4%BD%A0/</url>
-    <content><![CDATA[<h1 id="有感而發想，想對幾位貴人說聲謝謝–1130902"><a href="#有感而發想，想對幾位貴人說聲謝謝–1130902" class="headerlink" title="有感而發想，想對幾位貴人說聲謝謝–1130902"></a>有感而發想，想對幾位貴人說聲謝謝–1130902</h1><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="有感而發想，想對幾位貴人說聲謝謝–1130902"><a href="#有感而發想，想對幾位貴人說聲謝謝–1130902" class="headerlink" title="有感而發想，想對幾位貴人說聲謝謝–1130902"></a>有感而發想，想對幾位貴人說聲謝謝–1130902</h1><ul>
 <li><p>葉Ｏ銘教練<br>感謝您的出現、願意破格教一個沒運動底子的人學撐竿跳高！<br>因為有您的教授技術以及種種鞭策<br>讓我一直熱情不減的想會撐竿跳高給我的奧妙<br>我愛撐竿跳高 很愛 很愛<br><br>因為您不放棄我，所以我才能繼續訓練，繼續突破自己！<br>我深知不是您最耀眼的那顆星<br>先天沒運動細胞 卻有後天凡夫俗子的干擾<br>但我會一點一點進步<br>越是不可能，我就越有繼續努力的機會<br>所以，教練 真的很謝謝您！<br>之後還請您多多指教</p>
 </li>
 <li><p>歐Ｏ雄老師<br>感謝您一直不斷的指導我許多專題報告、資料的製作<br>不厭其煩重複聽我報告又報告<br>不斷的修正我的種種不OK<br>因為有老師的指導與調整<br>我不怯場、漸漸知道一些小眉角<br>佔用您許多寶貴時間<br>今天忽然想付諸文字告訴您<br>「有您真好」、「謝謝您」<br>當然<br>面臨關鍵時刻的逼近<br>我必須展現我的「會跟」<br>希望得到您的題點指導<br>謝謝您</p>
@@ -109,7 +109,7 @@
   <entry>
     <title>回顧持竿助跑與成績之關聯 高二下</title>
     <url>/2024/08/31/%E6%8C%81%E7%AB%BF%E5%8A%A9%E8%B7%91%E8%88%87%E6%88%90%E7%B8%BE%E4%B9%8B%E9%97%9C%E8%81%AF/</url>
-    <content><![CDATA[<h1 id="自助學習過程與說明"><a href="#自助學習過程與說明" class="headerlink" title="自助學習過程與說明"></a>自助學習過程與說明</h1><h2 id="回顧一下高二實做的點點滴滴"><a href="#回顧一下高二實做的點點滴滴" class="headerlink" title="回顧一下高二實做的點點滴滴"></a>回顧一下高二實做的點點滴滴</h2><p>⬇️製作過程及影片<br><br><br><video controls autoplay muted width="100%" height="auto"><br>  <source src="/video/study-process-summary.mp4" type="video/mp4"><br>  Your browser does not support the video tag.<br></video><br><br><br><br><br><br></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="自助學習過程與說明"><a href="#自助學習過程與說明" class="headerlink" title="自助學習過程與說明"></a>自助學習過程與說明</h1><h2 id="回顧一下高二實做的點點滴滴"><a href="#回顧一下高二實做的點點滴滴" class="headerlink" title="回顧一下高二實做的點點滴滴"></a>回顧一下高二實做的點點滴滴</h2><p>⬇️製作過程及影片<br><br><br><video controls autoplay muted width="100%" height="auto"><br>  <source src="/video/study-process-summary.mp4" type="video/mp4"><br>  Your browser does not support the video tag.<br></video><br><br><br><br><br><br></p>
 <h2 id="ppt發表"><a href="#ppt發表" class="headerlink" title="ppt發表"></a>ppt發表</h2><iframe src="https://drive.google.com/file/d/1i1QTspB7CuqAhdsL-nv8IIkh0SgxPHAv/preview" width="100%" height="600px"></iframe>
 
 <p>榮幸代表學校前往參加屏一區自主學習共好計畫</p>
@@ -122,33 +122,13 @@
       </categories>
   </entry>
   <entry>
-    <title>撐竿跳高介紹</title>
-    <url>/2024/08/31/%E6%92%90%E7%AB%BF%E8%B7%B3%E9%AB%98%E4%BB%8B%E7%B4%B9/</url>
-    <content><![CDATA[<h2 id="簡介-文獻"><a href="#簡介-文獻" class="headerlink" title="簡介 -  文獻"></a>簡介 -  文獻</h2><p>在田徑跳步運動中撐竿跳高運動是唯一使用器具，<br>也是最具難度、複雜性與技巧性的項目<br>（王代才、張武記，1994;Morlier,J.&amp;Cid,M.,1996;Bussabarger,2001）。<br>自從1817年開始採用木質跳竿創造第一成績後，<br>經歷竹竿、鋁竿、尼龍竿與石墨纖維竿等，<br>直到1962年才改用玻璃纖維竿<br>（游正忠，2008）。<br>優越的物理特性，使竿子更加輕便、彈力更大、韌性強、握感好<br>（李北玉，2001；孫南，2006）<br>撐竿跳高運動是田徑運動項目中困難度最高，<br>也是亞洲運動會和奧林匹克運動會競賽中，<br>在教學和訓練上需要經過細膩且完整的動作分析過後逐步進行<br>（謝佳翰，2019）。<br>其動作包括持竿、助跑、插竿、起跳、<br>弓身、擺體、捲體、伸展、轉身、<br>倒立、推竿（過竿）及後仰等十二個環節<br>（葉健銘，2022）。<br>這十二個動作需在約十秒內完成，<br>每一個動作都環環相扣因此。<br>與其他跳躍項目的助跑不同，撐竿跳高的助跑過程中，<br>選手需在負重情況下維持最高且可控的助跑速度，<br>這將直接影響最終的成績<br>（謝佳翰，2019）。<br>在人-竿相互作用的結合下，將人體拋向更高越過橫桿，<br>也就是將動能轉變為位能的過程，這是一個技術複雜，<br>且困難性高的項目，<br>所以選手必須擁有較高的水平速度、跳躍及體操技巧的能力<br>（Linthorne，2000）。</p>
-<p><code>在台灣，男子撐竿跳高的紀錄為：5公尺38公分（林志成，2024年創下)</code><br><code>而國際撐竿跳高男子紀錄則為：6公尺26公分（Mondo Duplantis，2024年)</code></p>
-<iframe 
-    width="auto" 
-    height="auto" 
-    src="https://www.youtube.com/embed/U0GnAT-gMhk?si=E5Sr2PJWWdWOuUnd" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
-
-<h2 id="說明"><a href="#說明" class="headerlink" title="說明"></a>說明</h2><p>2024-09-02 待更新</p>
-]]></content>
-      <categories>
-        <category>撐竿跳系列</category>
-      </categories>
-  </entry>
-  <entry>
     <title>機器學習</title>
     <url>/2024/09/02/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</url>
-    <content><![CDATA[<script type="text/javascript" async
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#x75;&#x6e;&#x32;&#x30;&#x30;&#x36;&#49;&#48;&#51;&#x30;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#x75;&#110;&#50;&#x30;&#48;&#x36;&#49;&#48;&#x33;&#x30;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a>機器學習</h1><p>什麼是人工智慧，</p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><strong>機器學習（Machine Learning</strong>，顧名思義，<br>就是讓機器透過數據學習規律，並運用這些規律來進行判斷與預測。</p>
 <p>回想我們小時候是如何學習的，舉例來說：<br>當我們在路上看到一輛擁有四個輪子、前方有兩個燈的交通工具時，<br>媽媽告訴我們：「這是汽車。」<br>經過多次觀察與驗證，我們學會了辨識汽車的特徵，<br>並能夠區分汽車與其他交通工具。<br>這個過程與機器學習的方式類似，我們可以將這些觀察到的資訊轉換為「特徵」（Features）：</p>
@@ -205,7 +185,7 @@
   <entry>
     <title>計算機歷史</title>
     <url>/2024/09/04/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%AD%B7%E5%8F%B2/</url>
-    <content><![CDATA[<h1 id="初入計算機概論"><a href="#初入計算機概論" class="headerlink" title="初入計算機概論"></a>初入計算機概論</h1><p>計算機概論是所有電腦的基礎</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="初入計算機概論"><a href="#初入計算機概論" class="headerlink" title="初入計算機概論"></a>初入計算機概論</h1><p>計算機概論是所有電腦的基礎</p>
 <p><del>如果你是國文系的最好修計算機概論</del><br><del>如果你是歷史系的最好修計算機概論</del></p>
 <h2 id="快速進入"><a href="#快速進入" class="headerlink" title="快速進入"></a>快速進入</h2><h3 id="計算"><a href="#計算" class="headerlink" title="計算"></a>計算</h3><ul>
 <li><p>希臘阿基米德以極限求圓面積</p>
@@ -383,9 +363,29 @@
 ]]></content>
   </entry>
   <entry>
+    <title>撐竿跳高介紹</title>
+    <url>/2024/08/31/%E6%92%90%E7%AB%BF%E8%B7%B3%E9%AB%98%E4%BB%8B%E7%B4%B9/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="簡介-文獻"><a href="#簡介-文獻" class="headerlink" title="簡介 -  文獻"></a>簡介 -  文獻</h2><p>在田徑跳步運動中撐竿跳高運動是唯一使用器具，<br>也是最具難度、複雜性與技巧性的項目<br>（王代才、張武記，1994;Morlier,J.&amp;Cid,M.,1996;Bussabarger,2001）。<br>自從1817年開始採用木質跳竿創造第一成績後，<br>經歷竹竿、鋁竿、尼龍竿與石墨纖維竿等，<br>直到1962年才改用玻璃纖維竿<br>（游正忠，2008）。<br>優越的物理特性，使竿子更加輕便、彈力更大、韌性強、握感好<br>（李北玉，2001；孫南，2006）<br>撐竿跳高運動是田徑運動項目中困難度最高，<br>也是亞洲運動會和奧林匹克運動會競賽中，<br>在教學和訓練上需要經過細膩且完整的動作分析過後逐步進行<br>（謝佳翰，2019）。<br>其動作包括持竿、助跑、插竿、起跳、<br>弓身、擺體、捲體、伸展、轉身、<br>倒立、推竿（過竿）及後仰等十二個環節<br>（葉健銘，2022）。<br>這十二個動作需在約十秒內完成，<br>每一個動作都環環相扣因此。<br>與其他跳躍項目的助跑不同，撐竿跳高的助跑過程中，<br>選手需在負重情況下維持最高且可控的助跑速度，<br>這將直接影響最終的成績<br>（謝佳翰，2019）。<br>在人-竿相互作用的結合下，將人體拋向更高越過橫桿，<br>也就是將動能轉變為位能的過程，這是一個技術複雜，<br>且困難性高的項目，<br>所以選手必須擁有較高的水平速度、跳躍及體操技巧的能力<br>（Linthorne，2000）。</p>
+<p><code>在台灣，男子撐竿跳高的紀錄為：5公尺38公分（林志成，2024年創下)</code><br><code>而國際撐竿跳高男子紀錄則為：6公尺26公分（Mondo Duplantis，2024年)</code></p>
+<iframe 
+    width="auto" 
+    height="auto" 
+    src="https://www.youtube.com/embed/U0GnAT-gMhk?si=E5Sr2PJWWdWOuUnd" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+<h2 id="說明"><a href="#說明" class="headerlink" title="說明"></a>說明</h2><p>2024-09-02 待更新</p>
+]]></content>
+      <categories>
+        <category>撐竿跳系列</category>
+      </categories>
+  </entry>
+  <entry>
     <title>進位制</title>
     <url>/2024/09/12/%E9%80%B2%E4%BD%8D%E5%88%B6/</url>
-    <content><![CDATA[<h1 id="電腦的組成"><a href="#電腦的組成" class="headerlink" title="電腦的組成"></a>電腦的組成</h1><h1 id="進位"><a href="#進位" class="headerlink" title="進位"></a>進位</h1><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="電腦的組成"><a href="#電腦的組成" class="headerlink" title="電腦的組成"></a>電腦的組成</h1><h1 id="進位"><a href="#進位" class="headerlink" title="進位"></a>進位</h1><ul>
 <li><p>十進制<br>生活中的進位制是十進制，這種進位制通常使用10個阿拉伯數字（即 0-9 ）進行記數<br>0 1 2 3 4 5 6 7 8 9 10</p>
 </li>
 <li><p>二進制<br>幾乎所有的電子計算機內部都使用二進位制，分別為「0」和「1」表示「關」和「開」。用於大多數電子計數器。<br>0 1 10 11 100 101 110 111 1000 1001 1010 1011</p>
