@@ -18,3 +18,20 @@
   background: rgba(259, 259, 259, 0.5); /* 白色，50% 透明 */
 }
 
+/* 亮色模式 */
+.light-mode .footer-timer,
+.light-mode .footer-timer span {
+  color: black !important;  /* 強制變黑 */
+}
+.light-mode .footer-timer i {
+  color: black !important;  /* 強制變黑 */
+}
+
+/* 暗色模式 */
+.dark-mode .footer-timer,
+.dark-mode .footer-timer span {
+  color: white !important;  /* 強制變白 */
+}
+.dark-mode .footer-timer i {
+  color: red !important;  /* 讓愛心圖標保持紅色 */
+}
