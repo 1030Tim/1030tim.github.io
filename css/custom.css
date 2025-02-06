@@ -260,20 +260,7 @@
 	backdrop-filter: blur(3px);
 	border-radius: 6px 6px;
 }
-/* 亮色模式 */
-.light-mode .footer-timer,
-.light-mode .footer-timer span {
-  color: black !important;  /* 強制變黑 */
-}
-.light-mode .footer-timer i {
-  color: black !important;  /* 強制變黑 */
-}
-
-/* 暗色模式 */
-.dark-mode .footer-timer,
-.dark-mode .footer-timer span {
-  color: white !important;  /* 強制變白 */
-}
-.dark-mode .footer-timer i {
-  color: red !important;  /* 讓愛心圖標保持紅色 */
+html[data-theme="dark"] {
+  --body-bg-color: #ffffff !important;
+  --text-color: #000000 !important;
 }

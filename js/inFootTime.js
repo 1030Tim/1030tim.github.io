@@ -1,9 +1,8 @@
-/*把不用的版本注释掉*/
-/**显示  天 小时 分 秒版本**/
+/* 显示 天 小时 分 秒版本 */
 ! function () {
     function update() {
         var now = new Date();
-        var grt = new Date("2020-04-03 00:00:00"); /** 此处是计时的起始时间 **/
+        var grt = new Date("2024-07-27 11:02:00"); /** 此处是计时的起始时间 **/
         now.setTime(now.getTime() + 250);
         days = (now - grt) / 1000 / 60 / 60 / 24;
         dnum = Math.floor(days);
@@ -23,23 +22,27 @@
             snum = "0" + snum;
         }
         document.getElementById("timeDate").innerHTML = "本站安全运行&nbsp" + dnum + "&nbsp天";
+        document.getElementById("timeDate").style.color = "black"; // 设置颜色为黑色
         document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
+        document.getElementById("times").style.color = "black"; // 设置颜色为黑色
     }
     setInterval(update, 1000);
 }();
-/*显示 年 天 小时 分 秒版本*/
+
+/* 显示 年 天 小时 分 秒版本 */
+
 ! function () {
     function update() {
         var now = new Date();
-        var grt = new Date("2020-04-03 00:00:00"); /** 此处是计时的起始时间 **/
-        var nowFullyear = now.getFullYear();    /**获取当前年份**/
+        var grt = new Date("2024-07-27 11:02:00"); 
+        var nowFullyear = now.getFullYear();
         ! function Nayear () {
-            if ((nowFullyear % 4 == 0 && nowFullyear % 100 != 0  ) || (nowFullyear % 400 == 0)) {  /**判断闰年平年取准确的一年所含天数**/
+            if ((nowFullyear % 4 == 0 && nowFullyear % 100 != 0  ) || (nowFullyear % 400 == 0)) { 
                 return yearDate = 366;
             }
             return yearDate = 365;
         }();
-        now.setTime(now.getTime() + 250); /**获取距离1970年1月1日0点0分到当前时间的总毫秒数**/
+        now.setTime(now.getTime() + 250);
         tolsecond = (now - grt) / 1000;
         days = tolsecond / 60 / 60 / 24;
         idnum = Math.floor(days);
@@ -62,7 +65,10 @@
             snum = "0" + snum;
         }
         document.getElementById("timeDate").innerHTML = "本站安全运行&nbsp" + ynum + "&nbsp年" + dnum + "&nbsp天";
+        document.getElementById("timeDate").style.color = "black"; // 设置颜色为黑色
         document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
+        document.getElementById("times").style.color = "black"; // 设置颜色为黑色
     }
     setInterval(update, 1000);
 }();
+
