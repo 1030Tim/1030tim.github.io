@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>swiftUI ios製作回顧</title>
+    <url>/2024/08/31/swiftUI-ios%E8%A3%BD%E4%BD%9C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="SwiftUI-Ios"><a href="#SwiftUI-Ios" class="headerlink" title="SwiftUI Ios"></a>SwiftUI Ios</h1><h2 id="語法介紹"><a href="#語法介紹" class="headerlink" title="語法介紹"></a>語法介紹</h2><ul>
+<li>Vstack{ } 垂直堆疊</li>
+</ul>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">VStack</span> &#123;</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;Hello&quot;</span>)</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>將兩個文字上下垂直疊起來<br>變成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hello</span><br><span class="line">World</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Hstack{ }  水平堆疊</li>
+</ul>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">HStack</span> &#123;</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;Hello&quot;</span>)</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>文字左右堆疊<br>變成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hello Wold</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Zstack{ } 重疊</li>
+</ul>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">ZStack</span> &#123;</span><br><span class="line">    <span class="type">Image</span>(<span class="string">&quot;background&quot;</span>)</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;Overlay text&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>兩個圖層疊在一起</p>
+<ul>
+<li>image() 用來渲染圖片，通常是來自資源文件或 URL 的圖片。</li>
+</ul>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">Image</span>(<span class="string">&quot;exampleImage&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>自主學習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>感謝生命中的你</title>
+    <url>/2024/09/01/%E6%84%9F%E8%AC%9D%E7%94%9F%E5%91%BD%E4%B8%AD%E7%9A%84%E4%BD%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="有感而發想，想對幾位貴人說聲謝謝–1130902"><a href="#有感而發想，想對幾位貴人說聲謝謝–1130902" class="headerlink" title="有感而發想，想對幾位貴人說聲謝謝–1130902"></a>有感而發想，想對幾位貴人說聲謝謝–1130902</h1><ul>
+<li><p>葉Ｏ銘教練<br>感謝您的出現、願意破格教一個沒運動底子的人學撐竿跳高！<br>因為有您的教授技術以及種種鞭策<br>讓我一直熱情不減的想會撐竿跳高給我的奧妙<br>我愛撐竿跳高 很愛 很愛<br><br>因為您不放棄我，所以我才能繼續訓練，繼續突破自己！<br>我深知不是您最耀眼的那顆星<br>先天沒運動細胞 卻有後天凡夫俗子的干擾<br>但我會一點一點進步<br>越是不可能，我就越有繼續努力的機會<br>所以，教練 真的很謝謝您！<br>之後還請您多多指教</p>
+</li>
+<li><p>歐Ｏ雄老師<br>感謝您一直不斷的指導我許多專題報告、資料的製作<br>不厭其煩重複聽我報告又報告<br>不斷的修正我的種種不OK<br>因為有老師的指導與調整<br>我不怯場、漸漸知道一些小眉角<br>佔用您許多寶貴時間<br>今天忽然想付諸文字告訴您<br>「有您真好」、「謝謝您」<br>當然<br>面臨關鍵時刻的逼近<br>我必須展現我的「會跟」<br>希望得到您的題點指導<br>謝謝您</p>
+</li>
+</ul>
+<p>哎呀<br>開學第二天<br>看似沒變卻不一樣了<br>看似變了但又還是一樣<br>所以<br>寫下這謝感言<br>還有很多善知識貴人在幫助我<br>也都謝謝你們<br><del>未完</del></p>
+]]></content>
+      <categories>
+        <category>撐竿跳系列</category>
+      </categories>
+  </entry>
+  <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#x75;&#x6e;&#x32;&#x30;&#x30;&#x36;&#49;&#48;&#51;&#x30;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#x75;&#x6e;&#50;&#48;&#48;&#x36;&#49;&#48;&#x33;&#x30;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen (宇桐）</li>
 </ul>
@@ -64,46 +107,18 @@
 ]]></content>
   </entry>
   <entry>
-    <title>swiftUI ios製作回顧</title>
-    <url>/2024/08/31/swiftUI-ios%E8%A3%BD%E4%BD%9C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="SwiftUI-Ios"><a href="#SwiftUI-Ios" class="headerlink" title="SwiftUI Ios"></a>SwiftUI Ios</h1><h2 id="語法介紹"><a href="#語法介紹" class="headerlink" title="語法介紹"></a>語法介紹</h2><ul>
-<li>Vstack{ } 垂直堆疊</li>
-</ul>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">VStack</span> &#123;</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;Hello&quot;</span>)</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>將兩個文字上下垂直疊起來<br>變成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hello</span><br><span class="line">World</span><br></pre></td></tr></table></figure>
-<ul>
-<li>Hstack{ }  水平堆疊</li>
-</ul>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">HStack</span> &#123;</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;Hello&quot;</span>)</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>文字左右堆疊<br>變成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hello Wold</span><br></pre></td></tr></table></figure>
-<ul>
-<li>Zstack{ } 重疊</li>
-</ul>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">ZStack</span> &#123;</span><br><span class="line">    <span class="type">Image</span>(<span class="string">&quot;background&quot;</span>)</span><br><span class="line">    <span class="type">Text</span>(<span class="string">&quot;Overlay text&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>兩個圖層疊在一起</p>
-<ul>
-<li>image() 用來渲染圖片，通常是來自資源文件或 URL 的圖片。</li>
-</ul>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="type">Image</span>(<span class="string">&quot;exampleImage&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>自主學習</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>感謝生命中的你</title>
-    <url>/2024/09/01/%E6%84%9F%E8%AC%9D%E7%94%9F%E5%91%BD%E4%B8%AD%E7%9A%84%E4%BD%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="有感而發想，想對幾位貴人說聲謝謝–1130902"><a href="#有感而發想，想對幾位貴人說聲謝謝–1130902" class="headerlink" title="有感而發想，想對幾位貴人說聲謝謝–1130902"></a>有感而發想，想對幾位貴人說聲謝謝–1130902</h1><ul>
-<li><p>葉Ｏ銘教練<br>感謝您的出現、願意破格教一個沒運動底子的人學撐竿跳高！<br>因為有您的教授技術以及種種鞭策<br>讓我一直熱情不減的想會撐竿跳高給我的奧妙<br>我愛撐竿跳高 很愛 很愛<br><br>因為您不放棄我，所以我才能繼續訓練，繼續突破自己！<br>我深知不是您最耀眼的那顆星<br>先天沒運動細胞 卻有後天凡夫俗子的干擾<br>但我會一點一點進步<br>越是不可能，我就越有繼續努力的機會<br>所以，教練 真的很謝謝您！<br>之後還請您多多指教</p>
-</li>
-<li><p>歐Ｏ雄老師<br>感謝您一直不斷的指導我許多專題報告、資料的製作<br>不厭其煩重複聽我報告又報告<br>不斷的修正我的種種不OK<br>因為有老師的指導與調整<br>我不怯場、漸漸知道一些小眉角<br>佔用您許多寶貴時間<br>今天忽然想付諸文字告訴您<br>「有您真好」、「謝謝您」<br>當然<br>面臨關鍵時刻的逼近<br>我必須展現我的「會跟」<br>希望得到您的題點指導<br>謝謝您</p>
-</li>
-</ul>
-<p>哎呀<br>開學第二天<br>看似沒變卻不一樣了<br>看似變了但又還是一樣<br>所以<br>寫下這謝感言<br>還有很多善知識貴人在幫助我<br>也都謝謝你們<br><del>未完</del></p>
+    <title>回顧持竿助跑與成績之關聯 高二下</title>
+    <url>/2024/08/31/%E6%8C%81%E7%AB%BF%E5%8A%A9%E8%B7%91%E8%88%87%E6%88%90%E7%B8%BE%E4%B9%8B%E9%97%9C%E8%81%AF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="自助學習過程與說明"><a href="#自助學習過程與說明" class="headerlink" title="自助學習過程與說明"></a>自助學習過程與說明</h1><h2 id="回顧一下高二實做的點點滴滴"><a href="#回顧一下高二實做的點點滴滴" class="headerlink" title="回顧一下高二實做的點點滴滴"></a>回顧一下高二實做的點點滴滴</h2><p>⬇️製作過程及影片<br><br><br><video controls autoplay muted width="100%" height="auto"><br>  <source src="/video/study-process-summary.mp4" type="video/mp4"><br>  Your browser does not support the video tag.<br></video><br><br><br><br><br><br></p>
+<h2 id="ppt發表"><a href="#ppt發表" class="headerlink" title="ppt發表"></a>ppt發表</h2><iframe src="https://drive.google.com/file/d/1i1QTspB7CuqAhdsL-nv8IIkh0SgxPHAv/preview" width="100%" height="600px"></iframe>
+
+<p>榮幸代表學校前往參加屏一區自主學習共好計畫</p>
+<p>過程中非常的緊張</p>
+<h2 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h2><p>某次練習中，看到教練正指導著初入門的學弟撐竿跳高基本動作，<br>學弟的表情卻顯得一副茫然；那一幕極像當年懵懂的我，<br>總在每一次的「感覺」中體會教練所指的「再如何一點、如何一點」，<br>孰不知差之毫釐，失之千里！<br>撐竿跳高的「技術」如同畫家在作畫時的「筆觸」般，都是很「抽象的感覺」。<br>哪怕以詳細的文字描述，仍存在著每個人身體條件及個人理解力的不同，<br>而需將這種抽象感累積而成。</p>
+<p>在棒球運動中，投手的每個動作都可以被「數據化」，<br>每個細節都會影響到最終的投球軌跡。<br>那麼，撐竿跳高呢？這項運動由12個動作組成，<br>而從一開始的持竿助跑來看，<br>持竿助跑動作是否與成績有直接的關聯呢？</p>
 ]]></content>
       <categories>
-        <category>撐竿跳系列</category>
+        <category>自主學習</category>
       </categories>
   </entry>
   <entry>
@@ -124,6 +139,25 @@
 ]]></content>
       <categories>
         <category>撐竿跳系列</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>機器學習</title>
+    <url>/2024/09/02/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密碼不太對, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3bbff02c9d9c67eb787dda84c164279dec0f958b7ead4a1af0d205536e31c35b">466d0d1a741586f29fe265d1c12fa137a6f4ad66ebbdcb09b58e430dbdf6fa96b2412a46c913b6289b6bfcf8431b30c0af8bf89031e4b9f52b9fbea49dab847339c1050fae7fb38ac2b22d26e36e0461ce4f149a00088b2ff68e5dbee74d39868818dd35be436f276b2c6dac58004fcde9e23e3eff8ed831c465f0e10a531515aa363b2acda9ce2baa31783a21757219f92d2ccc201432ed0a6c427c3978d896f1c854b1e45288aade780da6fa86ac87ee21e211690b329b6fe3ee281657eac8bfd3dfc87d4704b25d1ea486364d7d45592ca082f75d07e48d860f17d5ec81a089ef87d4200f51d05fae5f7ca3bff8fdddf4b8983482b2771fc1240aa415949f2127e12a72f0ae77c16d78cad04563b52b8fd576b2efb4c5e107874f77f90d57b9ec1f85ee6f9b5d8a650d37bfd6d0f978ca25bd158e86236e36321513335c5b7ad3f5fb071b8934946e41d02c6f032838d60765007c6d96a9a67c7f9a103056afa36df6f25f58bd432c931b68149cb1a17b16ed7b452c22b2d0166d1c2f8664893f6136bc91efe59c9447bce1bcaba523ae916aa5c3e0897b9589a97afadd7e26d1b524c62b64613919880789013e8aeb19d3cc89898ace98e61897e2e74fbde68ed7385e9f55e5419f006b30b0d53710c0407580cab71fe65e5971fd3b18361e01fefe886731d8e863760f7cd312de25347991889a6e09c50bc1b36f18d50caf5621e2c73c3d61a4e77beab3fd8f0ca866a2c76efecbc4951bed1eb05bf9ce314b2c552c0a88c0c651020e9ff09dc5c4f1ee069986f7b1c1759f4052d1004d1c1f6b1424f66550b091ed60573dd7711a4dd4c9a29d7d35d7efd1a4c1902a0c069a0d5262f87463b94f2283aedf6b1079ddbd985afb97ed8f6bceaa86905d5ed2d4fb7e10b7159c98215247563470b459dba3017e9197f2fc781eb9a38f7defd0114d3f5499bcdba0193779c5ba528bc9f2e421be90efda2563f3bf5789db0ce6a127f0c2bd5bde4e33d40f3578c1e7e52e2dc0c77f0ec4638a5a73fd92fdaebb4105000cdae2e9eb2db7510a8d1ec09389ff1cf4c79cec5a32cb7b06b66a4bb9f34bf5e8fea90f96e4bee43ab000f5e8c07b0be3b7ac7cb433046ade39a1c1b60a59dd0e1bfb65ee3e39096b51f796a0e717d556e023f955ba363f2547ac6d72d79b8c4813014f0a75eac808d240efeaa089155872dfce711e6da0408359d4062a40bdb05e6d8fd95db2c639c2a39770be942d8b7fa33223120cf06832e5caeae49869de37d4f4e620ccda1bdbeaf37d900bd9bc873b2ec10849c135438e2a1880d24357d1cdafba0dc8ac406b88f639d94284f6d6f8828d8dbade9d07604bc2a13e2bc1a043dd1c66f53c3ab86734a9988db5f760c6c8f920d19da3b85cd9e50711b6b1a3c5658624ea6a7e1b1226f444d7c9c79a7274d24f5ecbee8cfc95d442ce154a50963b68258c254ba902b58f54762205f09f34c61cb7678b3d33cb353a5805075eb8216cb19823dc81529ca5a61ee15abe10ea48a41668faadca9fc07e38f05b73198228f668590155f414327e01382532fd36137d06d2db2a9866470c2c371f3cb20eba916d111a58ca01c44623c2f31d8e8e902461635e8a0abdca13132550a785486e3e8c8fb63ee11ca39dd493e646cf8524c1ca7b2fdb760d80133fff1001623c1ee80748650cf3f2d94734866b51518712508a584a8c83c61426ec5170af0683c25d64757c4681ecc20a531106550c1c2b05f9fb177b374f51cae9f29844a868b675b4944fbc2e351ced5f9b20eef448fa7bedc4f5b25aeccc8ad2bb4e1bae6238a04ade659a7482b74c8aae20b77416920fdac8e54d7ed0a97c41646157d03bde035192eac7bf9d2e271421286969e401d7e0d5b856dadd96d0dc7e7628248107000ed9ca315f89572612685d96eef88b8716e06abbf5f8d69423dc22453eade4d48b82508c4684ab06a3916b8b2e3634988f31914ee13f669ddde81ccd32f7dd4aa4c705abca92fa3da5f1a851e5f6415087db7f4daebdb6d1807a6f5dd32bbfaf273e44d6985e629bafaa371e9084ae288993f6e866e7703dfb58db95e8273956f3cc5c35b6ae229a4131a49473529be76d34ad879ddffdc901620502e49a3f67b7c1b39fd95f4a057a7be8a79041315d132cbafdccf3311471ee8dec177ddb0b237d6b8c3b64da566062325fca85766f679a6d0fd4e1490adcdcbcbd6c45298abf8617b4d8aa8b4e09c7dbb49d173772f03411ffe515a6d03768637711f4109b295c9eec7ce4306290934030bfb39396b9200101c0997a671e923a83983ce7076053a5380d999ff5a4bf39468e897fc31d8e7b7816bfb676b3d5831cfe446403ee74850da76715d21bd79b538126275c6d82bb9288cedb65dfa8ffdb4a00ee68c6f658aa90e5f208d4ecf2c4a327f37caea377b5e162c8b189309e1a19f42b2dd8dfb65916cbb3ec74884a7c551926a1e7390bac5a4a7602778ce1277208dfd31420271a18568ec3fab5fa962931b604f8fc9d0e2b8e53f0044ed787e81b7b761d14df30d893078f77ebb8569e0a60f6c24154755e7fda4eb9050b46c768126ec6dcc87d3b93a33167083d5dbe02d1eedaeea35a7decc30e6dba9f139fec7b36ced37b0d0e4df7d8dd8c88cf575756a77ed5752a0c8a6aa18fbbf506bd0e571a90bffda76bc9783b6e3382ba845936e0c959e0df303e61ce3a3ad468e2de05755d0c02029f6cae738eca258c9c0e8a86f13ebf12553d371be61078503d603e8edf1effdf04b4dbc4c462e1e2bf63718d65be26b77dcd00535648e91823ee4133c0de8242e04f6581510d6032b6af8188323fbb6552d5fa35ae9fa4455300e8692610e2447634827e9f4c71208c4eaf8a581483685ed40a9740c42271b19e959ce09480858cdcdb5007b88d7d26664e636a4b3f1f07d4814612f31782c01c20239b449ea1bed1d6d5384e10f7500138b6e71d9938b28e01095da1f1c2580850d841845e4838e410567af2a13827eec71b8ae399ee29be597b419546126af09d7f80466566f3958531cb7a02cee8e6dfdf3149447328aef1b86d4a12f7a3c8c5179174f3261245992d7b4711d67828c275c1f9c739e2894026718e1fc75a579ee5a3b845cdbad58d03fa8fd897b51bad232ae873088e7cc9f5b53900213d6b0f891f763446d197589789bb8d880ead906bcbae3d50886f290f177e5e644a390cd5ad43576659b61d48d85b6e1a7f53ff5046f8f39471adb3ab2eee4724663fd4e72afb5d1d6591ce233c1f9add21d0ef460469845ceddea9fe748d70ec96ea86d6ab17ce721dc542ef13dbc08cc36a51ca26c308b89298bc749d0097b019f1cb9b209936836e3776e12590311b75a65f63d5b49e755d81b299e0d959af6c46ca2eebc93cfc23519fb0df290bb16b55315dba9ee799f0efb6f817cad02cc7952c498de9c9b1a5cce51f91d465da3ce954408934789ac5d965b529dab4f4d254840faafc4ea4bdb1f6511991c4765767ebafd016b603271d04abcb5e923a74b65d0eda46ccba020619f3157fff09d29b0569dbf9edc672de487fcdcf3e86d2387daf5ec85bd9e4d4ed89871508e9005e39b1b21b814dab7a0a436c62331f2673d8c853adfaf0f628ca9774a2d2225bc2945da3737f2e41196c3b410b22b3b49c6824a235324835b41782e5182ff7dd0679ebdd576d6139f542a7dd1f008dbcf4d066abbc7cfb68e146c3e63904c28461bd9405a5693c0e4b3cbcf5bba59280eb64df8b639be325b438793a8e31700f5f2b78dcd3ae9de84a90f261e0e92bfeb78cbcae5193265dfcf85fdd5df7521ff912ea6ec6d9ccc9772cf8c9ecdea83f5f16ba1c506cf264f98c517e6bc27a77145776ae2e21e06620468d5e5670bdac81518ccbd1db2eee7d42a44f249cf464b5b1d20c9e2d45565868af14c57ab942c737151be54d5371d4cf20de5c28a387ef84f9b348d956d36bc6902189a01be3626a7f2dc16ef3a76bfac47464bff61bdf8da65a2aeb0b0d91934b61961b61dea84246ce9138040fe86e8887359ac98b0f6c8da82239ba85f625a97db94c0214dce409aeca515e99450a707487c7c5a0e9a790983f718d6ba31c86c4f24be778818f1944c0821621737d90aab240748a5bb8cf23fed2050a65ded4709071755c610943376e7aba017c5e38988478dd99560bf17f9a367fa5792bbaddbd35fb9726f2f73dbbc8368aae09677b1bab83040120aee9cd2e4808098af94979480b8e4bb2ac01f893be7bcc15ffff3b8281f8c90fe94045ca29e0a264c1796467d035c375983e129063629c97906c781fd47af60912c98c82fdf7907d7ad0cadaa23e6a42a0bcc35046e439cb5b16bcd49dc054f1f2a8f170b405b0979b2fc109d5fdd94091e5b5c7cee7cbe49b5016fe425ef58a4b07bee7e4adf725500d1fde28e25df2a84b465b2965152135e210c8cb8a84c65db238b2638c888eb7cbff79479eba7be0b9b437d092b1deaa1682c0fb6ec8e3009db81a6d17d5aee03974b54e814db8c467f70215e8eddb93fb17d89579f738d6156dd19db64ecdd944b0656ca533e9b030e50b8340cb18eced94c34e51a8518a3533d76a7a99dccb069a79753bc4ae4a6916b4159ece0bcc9314e8b1259d0cae21569e3e707f00e9a6ae304674da970e93db9ec8e1e0d356eff8610533743ba47c0e2a0fadf97ea608c51151798c412b7750c8de40a708663a246dc756012ece9568b7bf09dd0bfa7cf4efc043af6d9f9279c2eef17ee9fda005760899dbefc5f93d8298b5816178bb558f5ad4244a2cc86b128c3ed128f206e77641e2df84ee939f70e68456f3e7e1b740a70c9d5ce419003f2520e18b68563fe6ac9561b8ce9de7852daab9e35c67f071d6bca6bed5350635091cf9fa371e335f16bbc479fa3b0a0ab88385f71fb4fe7cdf5acced8feca30d52363dc8b2865d25922a9ca6ea101995b9db009fa4edacb56836d59b9c918db73a3eeb33bb43ed601f09f9bc03ec6fff4ffad9ca199be6b08ff435bbbce2bda075ac0ce75319c003df32bde84624428afeb88f5c8e71993e320b82230f3f771d2e993413a0c7a1d91a3957b75c82a77f7581aef4ff6420b512415d8b2b54b4fe5e543d40ef9fc41d08a0470ea785ff14486d2a234e70a394e98d8d1b555f5fc30197cb38c020a25108b2fb3d1f687d355943b5cef9a39ca06a9ee9fd5f06263b38cc8dc169cd9d90e8f5651c816e7b0caf9abc5a5fd5b23ff0687891473cb3e3285fbf36574909dd3abe400010e065cf2cdfdf16ad0594e38a142b1357efd473ef35c8b85ebc5d9eecff4e1a455fd6584c18d361878a5c8abcc9e1e68f43d7f53c2b257b5f667c9af6c4b35de007a4a61dcb6964b4aa4d1ca0d46cd46db1fbbdf838a89f5052217d31471523a6fb0caccaf402690d453ec0a97ea4f7666f5c54ae82eef286c76c48c51480b2126f93b866127b6f860067737a3b8b36aadb8120dc5c6b0c3e370b771927053cfba26721855bbca2d4cc7749b646180a8e1bbe9975a05c3e262afc1a92ed48160a50950737d755646c2466538beb9488b294154af101599073fc49578ef97bb74ecc2b4dbb3fec80cc721e2eb3fac1dd34efc26ac3966cea30b4e0ffaaed9a83b6b36d07a4b37234eced37b5744756dd04cc7e06f25dd85337c9d32012c84c8019e869e3950561f810518005d6087df03642546791a10df7b88754d753e7e94453cba5149f328b463ddb52026269a7b50bc5ef96029f016e7c637d0cae8c34d35aeff878a28bd25c215b920488fa15248fe38bdbcb75a06fb797a47de4d6afb53441dd8e4376b333300a7f02f82dcb55b390329d4a42c992439fdaab1c1685c3c745ac2a2294cc1751e82823ea448e96341d70b52aacbd553d8a7b3a140b2e42362bf9a619a6e01fa07ee6020c986bdf30d353d5d1e473a2993743416c93f62a168f7632ec386e4a5523947ff03b45923e0e795c0b701cf360c83c0be5b54f5ed22c64d2c0139aa6db82bed133dfaf88d9c455b40585ffe65190fd4c669420b2d1bc4ab560dd650c930921dc7bf69c42ff5627a8010f964074a4402924a99bc2856ee4f54af1a6547ab09188603573999c93ae445dd56f58a35b79ad6b4b3f90fd04ffeedabee5bc1683c5a018063c23e96dbdc828093cb1667d963198068ce6d16d264bb3560f55c7f120d7f100f23df928338b55af20cab5a97492025c3227f3e743b1f65892956b8551146220d065c661783f56e927b79fe3d98d8436b028f409a6017614c6f6554a4178746a576e4af919fa1cbafb073c5ede4bd212c07a7c06f0db469e62081d1322cfb0b1272e086667636af05e8fe960b2cff53932a46b1e35c9beb7ee692b03c549173bdd0154a192fa614850b8dcbafb8b460eaec08a282d2df8a025e46aa933e0e17a5dba4aadcf265accad609a137b8a96395e297e32267d227363fa2e6ec1709bd7aae38a8a153b40c8233b0a21651858a13c4d9b12e9c86e170bd13840f1216881cfef6b24c97e6be05b18a3b34a90c72f21faab113a213d631b318a968ecc53865854a9e858efbf16b4e87234b66b40f9ad0bd9ec552d03e698c4b9a69766e79fab9a3623c9dbe996494f0da24f6f71de1c90d2cf8334f0291a78d2f4f61854b6652a3b2c6e778f3065f54c17f60aed7e0cc1f69b772b421989559f6e91ebfdb9d16af5e247155e3b8081b3f2ad3010eeb911e4c2645b013026ed03049f47750d1a80e9bf4fb9dc588b7e9d57e975920c0ab76f65eadef2098c8a98028bb11ec7cda1cd5844567eb8c984c8b4ce6fcf2db759f4a7c51f8332ac6c5d7937567cc11f5b55df7ff79801ba1f4d0b721bfe8b9428788078d936e7f875154e34570ce1ec84b4960fbae52543ec202270e6b7a645018a9cacf468fcd574e5cbf26cf0515efec4bb5ab647bb95de010efa1ab34f82dcb965299f9c8a0c017c9cd3eb844f7104b7cdae890a8ab39bde6cc0477aee573a97c1b548044760adc274c4e144c212fd226450b3fa96791cec5bb0811c5d361975ec434e2c2f661c639d063faac2bafb486ad0177a6d4b677dd834045c6ef5a710e73d9e8d110e94f21491f11427f31870eed9df7736bd08ce4e2e43d5a966ef97511a1a2511f11cc677fe8188f93a39c96758ae443328527d004475418d01a51919d2434abdd7f2852e3b13310fe4e1d167033c3bc99d074c60b4cfd6bbb8fd9ef95a2ef5d14e969bb81c3ed63f504d9e063024809280807e15e65e908b77417c1cb3c45e97189ce1d7e5d6145af091005837b7dc7c93e354944cb2f75114700e213034a6a0e79f99e8a79f05b80f5d4b65dbaf2cae8bb351b386aa8227b94e04303c8212f71d03d5d9b831c6d6bda582eb456527ffa0e0e8dd0afa2e4c97f030f34caf2032fff064ce33aeeb57b9758b1e2bd1be3cdefdcb36ac9e73dcddb71b724b099d00e8a76ae5b381849eac5fd79d52ecc36177e9de74e0ba3b864a2d7144ab2eec6628b970d4a35fdf2aaba489529ba8dfd6c8452528243cca9ba0a13f0ee445861c404d07da805d46c9b04b0a312563b0bd450f361c20bb1e3f53fb96b1b2802be5fd6e895805e1040672a1a529c5bf4a9b6800bcf449369ecf1c515c4d73705dfb282884049003114b2d7723b73637bc6a4e078badf940ce3b1d79bfe806da75e7e608af083292db6bb302b141c9ce66d24077dff04d971817671f8cc37f69e705bffbe7469f1cb5b01c4a76cd834d9c56ee284b5c8a51357911fcadd972e4a395bec7e94ed62b76088ad59c60fcfaf12082f3bece5cfab39c2b8f0cb06a403a86f085a46f1ea73f1abe4d8529152aa3ec510312bb98dd3db776a0b87e5f675e31495f79b2dc1f458f90a0849e5d2c2df0580a1920b29efdec61771e042122e1c23d10a845669398ce96ad9f8c199872d9ef43b41135895bfee00b9ad468e4bd04eba907d95973e6eb886ce17ac6a94f982ce903d8d104ebf8fdf5fb8c6f479863157622a02adc7567cd70940d568054bdf0126692038adc55d901a6b3b9eeff3904adff279372c409d26b459b9ae8348ceab9bdff7fda75a85f5600fa9b6815fef44d4028db5c6340632586dc7778e5cd5d57288c0e9a0a0811f915b42b4c8a82daf364d04249ea625f0fd8de1bc402a4faed413a1d39a344df19e810aafa9a36ff504fe16178cdbb8193497afef6531b9ff29315ae765273ee1d0cf5c901ecbd7f36ae80818306603335b0664e5521c5103f78de412253e831e46c38aa129a123a78e06118359e68f209d59e00866f6af8886596a873607a92ba5f2e167e0264c9bb01376b6fc4da661e250c569fd2fc5bc1a5661f4cb51bf7cb6b3a7cf6dc7a11a06d188b9318f9fdd90b8b304cd9e6e49e59612994c4fa17b9f24368f9ca0c1cf84b89a67e9eac1e1e1c3dfe8bfc14ec85b208200cba59fa5d64c299aa4fe8403832bd772b2e094a375a925d59a0b7e93f44aa1c015a9570fc4feebb35607d0f21107880afc2a8e713198af4f16602f89352dd8a790cced415ce20cb2a532b3fc3c2cd81b66a11e8c2ea851ca0b48b823dad31e5f0287fba984d746e813ac7414cfffeb9f7f72e2fbc4e530f4332c01f4a7a1b4bfb320eef69fe0a353264b3b1e3e7afd13d35b724ed0a537c1c7a4c87c7163610eff14d7dea42ab76cf10d5dc8e5dcffa2ca90b0dd0d3bae180c2afb9214db2b42cd647986c120ae1c8bd9bc65370ed7888e9a9ccf4bb5ef4702e16ffe3620db76da531d3f6dfbb0e42a963f2a421a717bc5b9e41ae3feb9e48ba594d44f402cd78d7ffa75e6bd7117ad9fc67b7fb5befb9328926108c9a406167e73b28e323c24118b7ea0ed4cfaa9f421ec884c702513b2e37443550e3e66dbb4c0ef75183c58d54a2a34c683ddb5afad2fdff715ccf3fd17d33ef62f573ebfa17151f2864db751232c32abd536ff081e73cf3196ad3e021593cbd22f1c6a8ff757acdfcb608e6ef7f889947ccc40afb9e9202004314c71a7ed65e41341b422560142bf5783d0d9247ccee0114cad147da8fc02c640cf0ceea78377ae07a9ae3c67a2fe75b28ae5847c7de83e35447bd8051bc564b4adcb7a7f893b18406e789e3f34e9fe68a3e4e31959d28b0a76d8d1503afa6233a569af445a590714b0a5dcef930427b6eed8d7e862c6ea60d3da65c8e8d36a102a509de0dc7fa2f7977dfa03a1efc915ce98b4a99f6b1d58fe27c5e5516ea8a507058f72b27f8ecf623463cf3c95219ff987d0734e494dfaaa0b21314a8b65ab785aa41a7f8a91dd3f898259275db085f5770f79b38f63ebb52a05087159d58ade74d548ccaa01d9e3418d6b055f1dd281dedceeb047491616ec5eedb73d811a221b9ff1245ffa5506fdec3efd2da0ac1614c5fb14be54a8c888391ac4165e022c9cde2b30a50fc514167b90a991dfff811b124683c011bb83df72015ce9172ff7bdfd6a14993efd44b8dbf522b71141cbbdc41b177224f6fa22b5218d44f483da1776a8e89692648e164d7e711b4f2c02c3c2618ff1742b43d266df1cf9fc3523652d3a394039de3cd9552bc97dd53b0ecd12ca7f9bc189e0746fca8e11eec9d74714ca126f4eec16e950788b83545118f17580a44f4359f59d47d7c3e5d7a17f14a75ddc096ccaeef3f7e044a8822ad02236ded22b0a977374f8dd81bff198b4083d56a4a641ac3a2fa6b3ecff3b52bfb950693cc4f88a4e5e4579136f636521eb5bee78e2a1c5011f6ac3be13b19beded88a7dc3597de86c7f64ff1379c13fccff81c5829d38142666b2599e0426f28ca242a6fdc0cad9eedb5708a1ce59792cf472bbc25a696cd95657b7f4ca798bec2ca81fe8fb3429003af7ab27527800b74157441202e6b5e560fda86cdc0a27407c330a43eb94a78dc09334ddb2b00d9bb1ba57ea20d57f8dd1e3bee06cfe013948ce8f65e457692b59cfe181380ef8cefc36e2198a843be07109ab0ad41441d7260fff11c9ea70e3fb37321f6123a3c1ec554e871d9813e58cf6014ef43f1b43102d3aaf50c2611b6edaa4ea5fb8d06bb066daf3fe418fd820268c4f43c4a3c67dfe0b910b5163ef9a2956b75bc056e5a47b78f6718785300ee1b45990073b8c892598411ad41f9b5f4f6f6df478fdea565fe65b7adfadb33257f13cfd70ac69c2a8e5ba70a5f121a5e49bccecc395fe7327c62ce3d998dfdc7b101ab1db073a99de3d0afa057fe7d3022ffcfc27361b3d42b4a2c6b5e6edbc5fe2485b0875167c3351fb25b800da39a5d01fbb00342c1ee677970cf1e8bca970c4576f8403b4b79cf0b439cfee1b4be88f00e093c508ce294448f89467e2222426bfbc7d4631ff396953bc8b218e2d75507b59d27380ca7a1c8dd6e684c5148577453e590b0cc2b908ab35a9ea68b2ad5eb02bf7561fb18682d80c00bb4f6f3f583be7605bee6175084b0d18b40cbed915ba054d8b0b0593f586a21280580d1d5fcc3fd9dcef0d7a8d36792d32c214d0744aafda030cc9fdee08f8dd0f3aead8f92b75a64a4e75df521df135196f88d2b9c744473fa07670017ca9bbefe1cc9d4f9cedc8e171d2f1ffe650f5e02d865ea92fa85713b30d9fd50b9c8262db55f1eff7368858fd76df4fafb6374d0c0f5bda3c07662c8b08c028d82332e28aa65eb753d550fcc31dfe9e6085b0d8fb7c118285f1082402a01fe804a5444cbc2b76f64dfd068be2882b1807df89040bfb65cca9bedea57406f83e3e91973ed2a8fc055dbb9c4bcc32f039cdd0627fe3fe0c13d056d0ca66a7b093557fe1f31a04c4834341bb76aeb8082aa0078def34ba584f60895839d8503d7ffa313cf6ee14d187ad38db98db074e479b0e73bae25a9942212d7f78501af4931979af0cb7e30a3ae7ed8ff181d25fa115a10096b01b681151ad936e440c0d6f3acf006369ae8fef31d4303886a9053d01da5d5dc83ea2edcae649efc10a8d2cdaa528009a9bc54c84856bad74581c98114a85465a6e41a59ac8e74a284fab29ac3c95ba1c8d88c9f29aec460197458c2e5427bf41faa70c5d625110fc98dc9f276de26c9641b15f8ab2caac70c8392aa768ee2e9f177bf655f08236f143c3ce3014f54ac785df284222982ce7731d9fa2ea8620c1fc8d0d</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 這裡需要密碼.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>知識</category>
       </categories>
   </entry>
   <entry>
@@ -527,81 +561,5 @@
       <tags>
         <tag>計算機概論</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>機器學習</title>
-    <url>/2024/09/02/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#117;&#110;&#x32;&#x30;&#48;&#x36;&#49;&#x30;&#x33;&#x30;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
-<h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a>機器學習</h1><p>什麼是人工智慧，</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><strong>機器學習（Machine Learning</strong>，顧名思義，<br>就是讓機器透過數據學習規律，並運用這些規律來進行判斷與預測。</p>
-<p>回想我們小時候是如何學習的，舉例來說：<br>當我們在路上看到一輛擁有四個輪子、前方有兩個燈的交通工具時，<br>媽媽告訴我們：「這是汽車。」<br>經過多次觀察與驗證，我們學會了辨識汽車的特徵，<br>並能夠區分汽車與其他交通工具。<br>這個過程與機器學習的方式類似，我們可以將這些觀察到的資訊轉換為「特徵」（Features）：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;白色&quot;]</span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;粉色&quot;]</span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;藍色&quot;]</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br></pre></td></tr></table></figure>
-<p>機器學習的核心就是讓演算法透過大量的特徵數據來學習模式，最終能夠準確地進行分類或預測。<br>事實上機器學習氛圍三種類型</p>
-<ol>
-<li>監督式學習</li>
-<li>無監督學習</li>
-<li>強化學習<br>上面汽車的例子是屬於監督式學習，<br>特徵就是看到的猜測，媽媽說這是汽車<br>就是機器學習的</li>
-</ol>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;機車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br><span class="line"></span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;汽車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br></pre></td></tr></table></figure>
-<ol start="2">
-<li>無監督學習（Unsupervised Learning）<br>沒有標籤，讓機器自行分析數據結構，發現數據之間的關聯性或分群（Clustering）。<br>例子：我們觀察交通工具的不同特徵，自己歸類哪些是汽車、機車或卡車<br>後續會慢慢介紹，白話點就是讓機器自學。</li>
-<li>強化學習（Reinforcement Learning）<br>透過獎勵與懲罰機制，讓機器學習最佳決策，常應用於遊戲AI、自動駕駛等領域。<br>例子：學騎腳踏車時，跌倒後知道哪種平衡方式才是正確的<br>一樣後面也會詳細說明，白話就是正確給你獎勵錯誤給你懲罰。</li>
-</ol>
-<h2 id="監督式學習"><a href="#監督式學習" class="headerlink" title="監督式學習"></a>監督式學習</h2><h3 id="簡單線性回歸-Simple-Linear-Regression"><a href="#簡單線性回歸-Simple-Linear-Regression" class="headerlink" title="簡單線性回歸 (Simple Linear Regression)"></a>簡單線性回歸 (Simple Linear Regression)</h3><p>簡單線性迴歸是一種常見的統計方法，用來探尋兩個連續變數之間的關係，<br>其回歸公式</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">y = w \cdot x + b</span><br></pre></td></tr></table></figure>
-<p>其中：</p>
-<ul>
-<li><strong>( y )</strong>：目標值（要預測的數值）  </li>
-<li><strong>( x )</strong>：輸入值（影響 ( y ) 的變數）  </li>
-<li><strong>( a )</strong>：斜率（表示 ( x ) 改變時，( y ) 變化的程度）  </li>
-<li><strong>( b )</strong>：截距（當 ( x &#x3D; 0 ) 時，( y ) 的起始值）</li>
-</ul>
-<h3 id="簡單線性回歸的核心概念"><a href="#簡單線性回歸的核心概念" class="headerlink" title="簡單線性回歸的核心概念"></a>簡單線性回歸的核心概念</h3><ol>
-<li>找出變數之間的關係  </li>
-<li>計算誤差，找到最佳的 ( a ) 和 ( b )  </li>
-<li>用這條直線來預測未來的 ( y ) 值</li>
-</ol>
-<h3 id="如何找到最佳的-a-和-b-？"><a href="#如何找到最佳的-a-和-b-？" class="headerlink" title="如何找到最佳的 ( a ) 和 ( b )？"></a>如何找到最佳的 ( a ) 和 ( b )？</h3><ol>
-<li><p>計算 Cost Function（損失函數</p>
-<ul>
-<li>衡量模型預測值與真實值的誤差  </li>
-<li>常用「均方誤差（MSE）」：<br>$$<br>MSE &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - \hat{y}_i)^2<br>$$<br> $$  y_i 是實際值，hat({y}_i) 是預測值  $$</li>
-</ul>
-</li>
-<li><p>優化</p>
-<ul>
-<li><strong>窮舉法</strong>：列舉不同的w和b，找到最小誤差的組合  </li>
-<li><strong>梯度下降法</strong>：透過計算誤差的變化，逐步調整w和b </li>
-<li><strong>模擬退火演算法</strong>:隨機搜尋最佳解的最佳化演算法，靈感來自於金屬退火的過程</li>
-</ul>
-</li>
-</ol>
-<h3 id="程式實作"><a href="#程式實作" class="headerlink" title="程式實作"></a>程式實作</h3><p>加入使用到的套件</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br></pre></td></tr></table></figure>
-<p>讀取資料</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">df = pd.read_csv(<span class="string">&#x27;1_data.csv&#x27;</span>)</span><br><span class="line">df.info()</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>知識</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>回顧持竿助跑與成績之關聯 高二下</title>
-    <url>/2024/08/31/%E6%8C%81%E7%AB%BF%E5%8A%A9%E8%B7%91%E8%88%87%E6%88%90%E7%B8%BE%E4%B9%8B%E9%97%9C%E8%81%AF/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="自助學習過程與說明"><a href="#自助學習過程與說明" class="headerlink" title="自助學習過程與說明"></a>自助學習過程與說明</h1><h2 id="回顧一下高二實做的點點滴滴"><a href="#回顧一下高二實做的點點滴滴" class="headerlink" title="回顧一下高二實做的點點滴滴"></a>回顧一下高二實做的點點滴滴</h2><p>⬇️製作過程及影片<br><br><br><video controls autoplay muted width="100%" height="auto"><br>  <source src="/video/study-process-summary.mp4" type="video/mp4"><br>  Your browser does not support the video tag.<br></video><br><br><br><br><br><br></p>
-<h2 id="ppt發表"><a href="#ppt發表" class="headerlink" title="ppt發表"></a>ppt發表</h2><iframe src="https://drive.google.com/file/d/1i1QTspB7CuqAhdsL-nv8IIkh0SgxPHAv/preview" width="100%" height="600px"></iframe>
-
-<p>榮幸代表學校前往參加屏一區自主學習共好計畫</p>
-<p>過程中非常的緊張</p>
-<h2 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h2><p>某次練習中，看到教練正指導著初入門的學弟撐竿跳高基本動作，<br>學弟的表情卻顯得一副茫然；那一幕極像當年懵懂的我，<br>總在每一次的「感覺」中體會教練所指的「再如何一點、如何一點」，<br>孰不知差之毫釐，失之千里！<br>撐竿跳高的「技術」如同畫家在作畫時的「筆觸」般，都是很「抽象的感覺」。<br>哪怕以詳細的文字描述，仍存在著每個人身體條件及個人理解力的不同，<br>而需將這種抽象感累積而成。</p>
-<p>在棒球運動中，投手的每個動作都可以被「數據化」，<br>每個細節都會影響到最終的投球軌跡。<br>那麼，撐竿跳高呢？這項運動由12個動作組成，<br>而從一開始的持竿助跑來看，<br>持竿助跑動作是否與成績有直接的關聯呢？</p>
-]]></content>
-      <categories>
-        <category>自主學習</category>
-      </categories>
   </entry>
 </search>
