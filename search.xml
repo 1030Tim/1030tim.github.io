@@ -103,7 +103,7 @@
   <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#x75;&#x6e;&#x32;&#48;&#48;&#x36;&#49;&#48;&#51;&#x30;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#x6e;&#x32;&#48;&#x30;&#x36;&#x31;&#48;&#51;&#x30;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen</li>
 </ul>
@@ -713,28 +713,24 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#117;&#x6e;&#x32;&#48;&#x30;&#x36;&#49;&#48;&#51;&#x30;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#x6e;&#50;&#48;&#x30;&#x36;&#49;&#48;&#51;&#48;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="人工智慧"><a href="#人工智慧" class="headerlink" title="人工智慧"></a>人工智慧</h1><p>相信大家在這幾年頻繁的聽到人工智慧<br>（artificial intelligence）俗稱AI</p>
 <ul>
 <li>AI掃把</li>
 <li>AI電鍋</li>
 </ul>
-<p>是乎什麼東西都可以被灌上AI兩個字了<br>要想要暸解AI我想先問問何為智慧</p>
+<p>乎什麼東西都可以被灌上AI兩個字了<br>要想要暸解AI，我想先問問何為智慧</p>
 <blockquote>
 <p>有意識或無意識的執行行為，<br>判斷、思考、預測等都是屬於智慧</p>
 </blockquote>
 <p>人工智慧就是透過模仿人類的思考及智慧<br>而人類智慧就是由學習而來的<br>說專業一點人工智慧就是利用<br><strong>機器學習</strong>實現的</p>
-<h1 id="ML-學習筆記"><a href="#ML-學習筆記" class="headerlink" title="ML 學習筆記"></a>ML 學習筆記</h1><p>機器學習（ML, Machine Learning）本質上是幫助我們找出人類難以明確寫出的複雜函式與規律。</p>
-<h2 id="回歸（Regression）"><a href="#回歸（Regression）" class="headerlink" title="回歸（Regression）"></a>回歸（Regression）</h2><p>當模型的輸出是一個連續數值時，這稱為回歸。例如：</p>
-<p>房價預測（輸入：房屋面積、房齡；輸出：價格）<br>銷售量預測（輸入：天氣、廣告投放量；輸出：銷售數量）</p>
-<h2 id="分類（Classification）"><a href="#分類（Classification）" class="headerlink" title="分類（Classification）"></a>分類（Classification）</h2><p>分類是讓機器在有限選項中做出選擇。例如：</p>
-<p>電子郵件分類（輸入：郵件內容；輸出：垃圾郵件 &#x2F; 非垃圾郵件）<br>圖片識別（輸入：圖片；輸出：貓 &#x2F; 狗）</p>
-<h2 id="結構化學習（Structured-Learning）"><a href="#結構化學習（Structured-Learning）" class="headerlink" title="結構化學習（Structured Learning）"></a>結構化學習（Structured Learning）</h2><p>除了數值預測與分類，機器學習還可以產生有結構的輸出，例如：</p>
-<p>生成圖像（如 DALL·E）<br>自動寫作（如 ChatGPT）<br>自動翻譯（如 Google 翻譯）</p>
+<h1 id="ML-學習筆記"><a href="#ML-學習筆記" class="headerlink" title="ML 學習筆記"></a>ML 學習筆記</h1><p>機器學習（ML, Machine Learning）是找出資料中的複雜函式與規律。<br>機器學習主要有三個分類<strong>回歸</strong>、<strong>分類</strong>、<strong>結構化學習</strong></p>
+<h2 id="Regression"><a href="#Regression" class="headerlink" title="Regression"></a>Regression</h2><p>當模型的輸出是一個連續數值時，這稱為回歸。例如：<br>房價預測（輸入：房屋面積、房齡；輸出：價格）<br>銷售量預測（輸入：天氣、廣告投放量；輸出：銷售數量）</p>
+<h2 id="Classification"><a href="#Classification" class="headerlink" title="Classification"></a>Classification</h2><p>分類是讓機器在有限選項中做出選擇。例如：<br>電子郵件分類（輸入：郵件內容；輸出：垃圾郵件 &#x2F; 非垃圾郵件）<br>圖片識別（輸入：圖片；輸出：貓 &#x2F; 狗）</p>
+<h2 id="Structured-Learning"><a href="#Structured-Learning" class="headerlink" title="Structured Learning"></a>Structured Learning</h2><p>除了數值預測與分類，機器學習還可以產生有結構的輸出，例如：<br>生成圖像（如 DALL·E）<br>自動寫作（如 ChatGPT）<br>自動翻譯（如 Google 翻譯）</p>
 <h2 id="機器學習的核心步驟"><a href="#機器學習的核心步驟" class="headerlink" title="機器學習的核心步驟"></a>機器學習的核心步驟</h2><h3 id="找出函式與模型設計"><a href="#找出函式與模型設計" class="headerlink" title="找出函式與模型設計"></a>找出函式與模型設計</h3><p>找到合適的函式需要具備一定的領域知識（Domain Knowledge）。</p>
-<p>定義函式：<br>例如線性回歸模型：<br>$$<br>y &#x3D; wX + b<br>$$<br>其中：<br>(y) 是我們要預測的數值（目標變數）<br>(X) 是輸入變數<br>(w) 為權重（weight），(b) 為偏差（bias）<br>定義 Loss（損失函數）：<br>Loss 是衡量預測誤差的函數，例如：<br>均方誤差（MSE, Mean Squared Error）：<br>$$<br>MSE &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} ( y_i - \hat{y_i} )^2<br>$$<br>平均絕對誤差（MAE, Mean Absolute Error）：<br>$$<br>MAE &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} | y_i - \hat{y_i} |<br>$$<br>交叉熵（Cross-Entropy）：適用於分類問題</p>
-<h3 id="最佳化（Optimization）"><a href="#最佳化（Optimization）" class="headerlink" title="最佳化（Optimization）"></a>最佳化（Optimization）</h3><p>目標是讓 Loss 變得最小，主要方法是梯度下降（Gradient Descent）：</p>
-<p>初始化權重$$（隨機選擇一組 ( w_0, b_0 )）$$<br>計算損失函數的梯度（求導數得到斜率）<br>根據梯度更新參數<br>若梯度為負數，則增加 ( w )<br>若梯度為正數，則減小 ( w )<br>缺點：可能陷入局部最小值（Local Minima）</p>
+<h4 id="Regression-Model"><a href="#Regression-Model" class="headerlink" title="Regression Model"></a>Regression Model</h4><h5 id="Simple-Linear-Regression"><a href="#Simple-Linear-Regression" class="headerlink" title="Simple Linear Regression"></a>Simple Linear Regression</h5><p>定義函式：<br>線性回歸模型：<br>$$<br>y &#x3D; wX + b<br>$$<br>其中：<br>(y) 是我們要預測的數值（目標變數）<br>(X) 是輸入變數<br>(w) 為權重（weight），(b) 為偏差（bias）<br>定義 Loss（損失函數）：<br>Loss 是衡量預測誤差的函數，例如：<br>均方誤差（MSE, Mean Squared Error）：<br>$$<br>MSE &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} ( y_i - \hat{y_i} )^2<br>$$<br>平均絕對誤差（MAE, Mean Absolute Error）：<br>$$<br>MAE &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} | y_i - \hat{y_i} |<br>$$</p>
+<h3 id="Optimization"><a href="#Optimization" class="headerlink" title="Optimization"></a>Optimization</h3><p>目標是讓 Loss 變得最小，主要方法是梯度下降（Gradient Descent）：<br>而梯度下降是屬於黑箱優化演算法<br>初始化權重$$（隨機選擇一組 ( w_0, b_0 )）$$<br>計算損失函數的梯度（求導數得到斜率）<br>根據梯度更新參數<br>若梯度為負數，則增加 ( w )<br>若梯度為正數，則減小 ( w )<br>缺點：可能陷入局部最小值（Local Minima）</p>
 <h3 id="進階最佳化方法"><a href="#進階最佳化方法" class="headerlink" title="進階最佳化方法"></a>進階最佳化方法</h3><p>學習率（Learning Rate）調整：<br>若學習率太大，可能錯過最佳解（oscillation）。<br>若學習率太小，收斂速度變慢。<br>改進方法：<br>Momentum（動量法）<br>Adam Optimizer（適應性學習率調整）<br>5. 總結</p>
 <p>機器學習的目標是找到合適的函式，使模型可以有效地學習並做出準確預測。常見問題類型包括回歸、分類及結構化學習。透過 Loss 設計與梯度下降等方法，模型可以逐步逼近最優解。</p>
 ]]></content>
