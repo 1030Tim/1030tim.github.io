@@ -21,8 +21,18 @@
   <entry>
     <title>1、2月份心得</title>
     <url>/2025/03/03/1%E3%80%812%E6%9C%88%E4%BB%BD%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>test</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="deaea94e48c3dbed517993149fa2789bf65f3f2beac1e3886793e6550bdca10d">466d0d1a741586f29fe265d1c12fa137a6f4ad66ebbdcb09b58e430dbdf6fa96b2412a46c913b6289b6bfcf8431b30c0af8bf89031e4b9f52b9fbea49dab847339c1050fae7fb38ac2b22d26e36e0461ce4f149a00088b2ff68e5dbee74d39868818dd35be436f276b2c6dac58004fcde9e23e3eff8ed831c465f0e10a531515aa363b2acda9ce2baa31783a21757219f92d2ccc201432ed0a6c427c3978d896f1c854b1e45288aade780da6fa86ac87ee21e211690b329b6fe3ee281657eac8bfd3dfc87d4704b25d1ea486364d7d459cb749a28ed3576d1545caeae89b8477</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>心得</category>
       </categories>
@@ -33,7 +43,7 @@
   <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#x6e;&#50;&#48;&#48;&#x36;&#49;&#48;&#51;&#x30;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#x75;&#110;&#x32;&#x30;&#48;&#54;&#x31;&#x30;&#51;&#48;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen</li>
 </ul>
@@ -643,7 +653,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#117;&#x6e;&#x32;&#48;&#x30;&#54;&#49;&#x30;&#x33;&#48;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+<p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#110;&#50;&#48;&#48;&#x36;&#x31;&#48;&#x33;&#48;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="ML-學習筆記"><a href="#ML-學習筆記" class="headerlink" title="ML 學習筆記"></a>ML 學習筆記</h1><p>機器學習（ML, Machine Learning）本質上是幫助我們找出人類難以明確寫出的複雜函式與規律。</p>
 <h2 id="回歸（Regression）"><a href="#回歸（Regression）" class="headerlink" title="回歸（Regression）"></a>回歸（Regression）</h2><p>當模型的輸出是一個連續數值時，這稱為回歸。例如：</p>
 <p>房價預測（輸入：房屋面積、房齡；輸出：價格）<br>銷售量預測（輸入：天氣、廣告投放量；輸出：銷售數量）</p>
