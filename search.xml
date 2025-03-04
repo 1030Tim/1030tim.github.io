@@ -19,6 +19,88 @@
       </tags>
   </entry>
   <entry>
+    <title>機器學習</title>
+    <url>/2025/03/04/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h2 id="請問可以幫我看看觀念是否正確嗎拜託"><a href="#請問可以幫我看看觀念是否正確嗎拜託" class="headerlink" title="請問可以幫我看看觀念是否正確嗎拜託"></a>請問可以幫我看看觀念是否正確嗎拜託</h2><h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a><strong>機器學習</strong></h1><p>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#117;&#x6e;&#50;&#48;&#x30;&#54;&#49;&#48;&#51;&#48;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
+<hr>
+<h1 id="🤖-人工智慧"><a href="#🤖-人工智慧" class="headerlink" title="🤖 人工智慧"></a>🤖 <strong>人工智慧</strong></h1><p>相信大家這幾年頻繁地聽到 <strong>人工智慧（Artificial Intelligence, AI）</strong>  </p>
+<ul>
+<li><strong>AI 掃把</strong>  </li>
+<li><strong>AI 電鍋</strong></li>
+</ul>
+<p>幾乎什麼東西都可以被灌上 AI 這兩個字了！<br>但要理解 AI，首先要問：<strong>何為智慧？</strong>  </p>
+<blockquote>
+<p><strong>有意識或無意識的執行行為，判斷、思考、預測等，都是屬於智慧。</strong>  </p>
+</blockquote>
+<p><strong>人工智慧</strong> 就是透過模仿人類的思考及智慧，而 <strong>人類智慧來自學習</strong>。<br><strong>專業一點來說，任何模仿人類思考的系統或稱模型、函數都可以被稱為人工智慧</strong><br>其中最具有代表性的叫做<strong>機器學習</strong>  </p>
+<hr>
+<h1 id="🔍-機器學習的三大類別"><a href="#🔍-機器學習的三大類別" class="headerlink" title="🔍 機器學習的三大類別"></a>🔍 <strong>機器學習的三大類別</strong></h1><h3 id="🎯-Supervised-Learning（監督式學習）"><a href="#🎯-Supervised-Learning（監督式學習）" class="headerlink" title="🎯 Supervised Learning（監督式學習）"></a>🎯 <strong>Supervised Learning（監督式學習）</strong></h3><p><strong>回想我們小時候是如何學習的？</strong><br>當我們看到一輛擁有四個輪子、前方有兩個燈的交通工具時，我們猜這是「機車」，但媽媽告訴我們：「這是汽車。」  </p>
+<p>👉 <strong>這就是監督式學習（有標籤的學習方式）</strong>  </p>
+<p>📌 <strong>示例：</strong>  </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;機車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br><span class="line"></span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;汽車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="🎯-Unsupervised-Learning（無監督學習）"><a href="#🎯-Unsupervised-Learning（無監督學習）" class="headerlink" title="🎯 Unsupervised Learning（無監督學習）"></a>🎯 <strong>Unsupervised Learning（無監督學習）</strong></h3><p>這種學習方式<strong>沒有標籤</strong>，機器需要自己分析數據結構，發現數據之間的關聯性或進行分群（Clustering）。  </p>
+<p>📌 <strong>示例：</strong><br>我們觀察交通工具的不同特徵，自己歸類哪些是 <strong>汽車、機車或卡車</strong>。<br>👉 <strong>白話點來說，就是讓機器自己學習！</strong>  </p>
+<hr>
+<h3 id="🎯-Reinforcement-Learning（強化學習）"><a href="#🎯-Reinforcement-Learning（強化學習）" class="headerlink" title="🎯 Reinforcement Learning（強化學習）"></a>🎯 <strong>Reinforcement Learning（強化學習）</strong></h3><p>這種學習方式透過 <strong>獎勵與懲罰機制</strong> 來讓機器學習最佳決策，常見於 <strong>遊戲 AI、自動駕駛等領域</strong> 🚗💨  </p>
+<p>📌 <strong>示例：</strong><br>學騎腳踏車時，我們可能會跌倒，但經過不斷調整，最終找到最佳的平衡方式！<br>👉 <strong>白話來說，就是「做對了給獎勵，做錯了受懲罰」</strong> 🎯🏆  </p>
+<hr>
+<h1 id="📊-ML-學習筆記"><a href="#📊-ML-學習筆記" class="headerlink" title="📊 ML 學習筆記"></a>📊 <strong>ML 學習筆記</strong></h1><p><strong>機器學習（ML, Machine Learning）</strong> 是找出資料中的複雜函式與規律，主要分為：<br>✔ <strong>回歸（Regression）</strong><br>✔ <strong>分類（Classification）</strong><br>✔ <strong>結構化學習（Structured Learning）</strong>  </p>
+<h1 id="📌-Regression（回歸）"><a href="#📌-Regression（回歸）" class="headerlink" title="📌 Regression（回歸）"></a>📌 <strong>Regression（回歸）</strong></h1><p>當模型的輸出是一個 <strong>連續數值</strong> 時，就屬於回歸，例如：<br>🏠 <strong>房價預測</strong>（輸入：房屋面積、房齡 ➡ 輸出：價格）<br>📈 <strong>銷售量預測</strong>（輸入：天氣、廣告投放量 ➡ 輸出：銷售數量）</p>
+<hr>
+<h2 id="🔢-Simple-Linear-Regression（簡單線性回歸）"><a href="#🔢-Simple-Linear-Regression（簡單線性回歸）" class="headerlink" title="🔢 Simple Linear Regression（簡單線性回歸）"></a>🔢 <strong>Simple Linear Regression（簡單線性回歸）</strong></h2><p>📏 <strong>線性回歸模型公式：</strong><br>$$<br>y &#x3D; wX + b<br>$$</p>
+<p>📌 其中：<br>✅ <strong>y</strong> &#x3D; 預測的數值（目標變數）<br>✅ <strong>X</strong> &#x3D; 輸入變數（Feature）<br>✅ <strong>w</strong> &#x3D; 權重（Weight）<br>✅ <strong>b</strong> &#x3D; 偏差（Bias）  </p>
+<p>當輸入變數只有 <strong>一個</strong> 時，就可以使用 <strong>簡單線性回歸（Simple Linear Regression）</strong>，它的模型是一條直線。</p>
+<hr>
+<h2 id="🔢-Multiple-Regression（多項式回歸）"><a href="#🔢-Multiple-Regression（多項式回歸）" class="headerlink" title="🔢 Multiple Regression（多項式回歸）"></a>🔢 <strong>Multiple Regression（多項式回歸）</strong></h2><p>當輸入變數超過一個時，需要使用 <strong>多元回歸（Multiple Regression）</strong>，其公式如下：</p>
+<p>$$y &#x3D; w_1 X_1 + w_2 X_2 + … + w_n X_n + b$$</p>
+<p>📌 <strong>範例：房價預測</strong><br>輸入變數（Features）：<br>✅ <strong>X₁</strong> &#x3D; 房屋面積<br>✅ <strong>X₂</strong> &#x3D; 房齡<br>✅ <strong>X₃</strong> &#x3D; 房屋所在區域<br>➡ <strong>輸出</strong>：預測房價（y）</p>
+<hr>
+<p>這兩種回歸方法的選擇，取決於數據的特性：<br>✅ <strong>線性關係 → 線性回歸（Simple 或 Multiple Regression）</strong><br>✅ <strong>非線性關係 → 多項式回歸（Polynomial Regression）</strong></p>
+<h2 id="📌-Classification（分類）"><a href="#📌-Classification（分類）" class="headerlink" title="📌 Classification（分類）"></a>📌 <strong>Classification（分類）</strong></h2><p>讓機器在有限選項中做出選擇，例如：<br>📧 <strong>電子郵件分類</strong>（輸入：郵件內容 ➡ 輸出：垃圾郵件 &#x2F; 非垃圾郵件）<br>🐱 <strong>圖片識別</strong>（輸入：圖片 ➡ 輸出：貓 &#x2F; 狗）  </p>
+<hr>
+<h2 id="📌-Structured-Learning（結構化學習）"><a href="#📌-Structured-Learning（結構化學習）" class="headerlink" title="📌 Structured Learning（結構化學習）"></a>📌 <strong>Structured Learning（結構化學習）</strong></h2><p>除了數值預測與分類，機器學習還可以產生<strong>有結構的輸出</strong>，例如：<br>🎨 <strong>生成圖像</strong>（如 DALL·E）<br>📝 <strong>自動寫作</strong>（如 ChatGPT）<br>🌍 <strong>自動翻譯</strong>（如 Google 翻譯）  </p>
+<hr>
+<h1 id="⚙-機器學習的核心步驟"><a href="#⚙-機器學習的核心步驟" class="headerlink" title="⚙ 機器學習的核心步驟"></a>⚙ <strong>機器學習的核心步驟</strong></h1><h2 id="🏗-1-找出函式與模型設計"><a href="#🏗-1-找出函式與模型設計" class="headerlink" title="🏗 1. 找出函式與模型設計"></a>🏗 1. <strong>找出函式與模型設計</strong></h2><p>要找到合適的函式，需要一定的 <strong>領域知識（Domain Knowledge）</strong>。  </p>
+<hr>
+<h2 id="2-梯度下降與誤差函數-最適合的參數"><a href="#2-梯度下降與誤差函數-最適合的參數" class="headerlink" title="2. 梯度下降與誤差函數(最適合的參數)"></a>2. 梯度下降與誤差函數(最適合的參數)</h2><h3 id="均方誤差（MSE-Mean-Squared-Error）"><a href="#均方誤差（MSE-Mean-Squared-Error）" class="headerlink" title="均方誤差（MSE, Mean Squared Error）"></a>均方誤差（MSE, Mean Squared Error）</h3><p>均方誤差用來衡量模型預測值與真實值之間的平均平方差異。</p>
+<p>$$<br>\text{MSE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - \hat{y}_i)^2<br>$$</p>
+<h3 id="平均絕對誤差（MAE-Mean-Absolute-Error）"><a href="#平均絕對誤差（MAE-Mean-Absolute-Error）" class="headerlink" title="平均絕對誤差（MAE, Mean Absolute Error）"></a>平均絕對誤差（MAE, Mean Absolute Error）</h3><p>平均絕對誤差用來衡量模型預測值與真實值之間的平均絕對差異。</p>
+<p>$$<br>\text{MAE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} |y_i - \hat{y}_i|<br>$$</p>
+<h3 id="梯度下降法（Gradient-Descent）"><a href="#梯度下降法（Gradient-Descent）" class="headerlink" title="梯度下降法（Gradient Descent）"></a>梯度下降法（Gradient Descent）</h3><p>梯度下降是一種優化算法，透過計算誤差函數對權重的偏導數來更新參數，以最小化誤差。</p>
+<h4 id="3-1-目標函數"><a href="#3-1-目標函數" class="headerlink" title="3.1 目標函數"></a>3.1 目標函數</h4><p>對於線性回歸，假設預測值為：</p>
+<p>$$<br>\hat{y} &#x3D; wx + b<br>$$</p>
+<p>我們的損失函數為 MSE：</p>
+<p>$$<br>L &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - (wx_i + b))^2<br>$$</p>
+<h4 id="3-2-對權重與偏置求導數"><a href="#3-2-對權重與偏置求導數" class="headerlink" title="3.2 對權重與偏置求導數"></a>3.2 對權重與偏置求導數</h4><p>對權重 (w) 求偏導數：</p>
+<p>$$<br>\frac{\partial L}{\partial w} &#x3D; -\frac{2}{n} \sum_{i&#x3D;1}^{n} x_i (y_i - (wx_i + b))<br>$$</p>
+<p>對偏置 (b) 求偏導數：</p>
+<p>$$<br>\frac{\partial L}{\partial b} &#x3D; -\frac{2}{n} \sum_{i&#x3D;1}^{n} (y_i - (wx_i + b))<br>$$</p>
+<h4 id="3-3-梯度更新規則"><a href="#3-3-梯度更新規則" class="headerlink" title="3.3 梯度更新規則"></a>3.3 梯度更新規則</h4><p>使用學習率 (\alpha) 來更新參數：</p>
+<p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w}, \quad b &#x3D; b - \alpha \frac{\partial L}{\partial b}<br>$$</p>
+<h3 id="4-局部最小值與優化策略"><a href="#4-局部最小值與優化策略" class="headerlink" title="4. 局部最小值與優化策略"></a>4. 局部最小值與優化策略</h3><ul>
+<li><strong>學習率選擇</strong>：學習率過大可能導致無法收斂，過小則收斂速度過慢。</li>
+<li><strong>動量梯度下降（Momentum Gradient Descent）</strong>：</li>
+</ul>
+<p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w} + \beta v<br>$$</p>
+<p>其中 $$(\beta)$$ 是 Momentum 係數，可幫助擺脫局部最小值。</p>
+<hr>
+<p>未完成…<br>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#x75;&#110;&#x32;&#48;&#48;&#x36;&#x31;&#x30;&#x33;&#48;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
+<p>#機器學習 #人工智慧 #深度學習 #數據分析 #科技趨勢 #AI</p>
+]]></content>
+      <categories>
+        <category>機器學習</category>
+      </categories>
+      <tags>
+        <tag>機器學習</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>1、2月份紀錄</title>
     <url>/2025/03/03/1%E3%80%812%E6%9C%88%E4%BB%BD%E7%B4%80%E9%8C%84/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="學習目標"><a href="#學習目標" class="headerlink" title="學習目標"></a>學習目標</h1><p>感謝南華教授們的認可，讓我在1月就確定有學校可以就讀<br>基於，對技術的熱愛、以及想研究撐竿高的熱血<br>制定了以下目標去學習程式設計</p>
@@ -103,7 +185,7 @@
   <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#x75;&#x6e;&#x32;&#x30;&#x30;&#x36;&#x31;&#48;&#51;&#x30;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#x75;&#110;&#50;&#48;&#48;&#x36;&#x31;&#x30;&#51;&#48;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen</li>
 </ul>
@@ -704,88 +786,6 @@
       </categories>
       <tags>
         <tag>計算機概論</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>機器學習</title>
-    <url>/2024/09/02/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-<h2 id="請問可以幫我看看觀念是否正確嗎拜託"><a href="#請問可以幫我看看觀念是否正確嗎拜託" class="headerlink" title="請問可以幫我看看觀念是否正確嗎拜託"></a>請問可以幫我看看觀念是否正確嗎拜託</h2><h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a><strong>機器學習</strong></h1><p>📩 <strong>發現錯誤？請來信 <a href="mailto:&#x6a;&#117;&#110;&#x32;&#48;&#x30;&#54;&#49;&#48;&#x33;&#48;&#x40;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
-<hr>
-<h1 id="🤖-人工智慧"><a href="#🤖-人工智慧" class="headerlink" title="🤖 人工智慧"></a>🤖 <strong>人工智慧</strong></h1><p>相信大家這幾年頻繁地聽到 <strong>人工智慧（Artificial Intelligence, AI）</strong>  </p>
-<ul>
-<li><strong>AI 掃把</strong>  </li>
-<li><strong>AI 電鍋</strong></li>
-</ul>
-<p>幾乎什麼東西都可以被灌上 AI 這兩個字了！<br>但要理解 AI，首先要問：<strong>何為智慧？</strong>  </p>
-<blockquote>
-<p><strong>有意識或無意識的執行行為，判斷、思考、預測等，都是屬於智慧。</strong>  </p>
-</blockquote>
-<p><strong>人工智慧</strong> 就是透過模仿人類的思考及智慧，而 <strong>人類智慧來自學習</strong>。<br><strong>專業一點來說，任何模仿人類思考的系統或稱模型、函數都可以被稱為人工智慧</strong><br>其中最具有代表性的叫做<strong>機器學習</strong>  </p>
-<hr>
-<h1 id="🔍-機器學習的三大類別"><a href="#🔍-機器學習的三大類別" class="headerlink" title="🔍 機器學習的三大類別"></a>🔍 <strong>機器學習的三大類別</strong></h1><h3 id="🎯-Supervised-Learning（監督式學習）"><a href="#🎯-Supervised-Learning（監督式學習）" class="headerlink" title="🎯 Supervised Learning（監督式學習）"></a>🎯 <strong>Supervised Learning（監督式學習）</strong></h3><p><strong>回想我們小時候是如何學習的？</strong><br>當我們看到一輛擁有四個輪子、前方有兩個燈的交通工具時，我們猜這是「機車」，但媽媽告訴我們：「這是汽車。」  </p>
-<p>👉 <strong>這就是監督式學習（有標籤的學習方式）</strong>  </p>
-<p>📌 <strong>示例：</strong>  </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;機車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br><span class="line"></span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;汽車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h3 id="🎯-Unsupervised-Learning（無監督學習）"><a href="#🎯-Unsupervised-Learning（無監督學習）" class="headerlink" title="🎯 Unsupervised Learning（無監督學習）"></a>🎯 <strong>Unsupervised Learning（無監督學習）</strong></h3><p>這種學習方式<strong>沒有標籤</strong>，機器需要自己分析數據結構，發現數據之間的關聯性或進行分群（Clustering）。  </p>
-<p>📌 <strong>示例：</strong><br>我們觀察交通工具的不同特徵，自己歸類哪些是 <strong>汽車、機車或卡車</strong>。<br>👉 <strong>白話點來說，就是讓機器自己學習！</strong>  </p>
-<hr>
-<h3 id="🎯-Reinforcement-Learning（強化學習）"><a href="#🎯-Reinforcement-Learning（強化學習）" class="headerlink" title="🎯 Reinforcement Learning（強化學習）"></a>🎯 <strong>Reinforcement Learning（強化學習）</strong></h3><p>這種學習方式透過 <strong>獎勵與懲罰機制</strong> 來讓機器學習最佳決策，常見於 <strong>遊戲 AI、自動駕駛等領域</strong> 🚗💨  </p>
-<p>📌 <strong>示例：</strong><br>學騎腳踏車時，我們可能會跌倒，但經過不斷調整，最終找到最佳的平衡方式！<br>👉 <strong>白話來說，就是「做對了給獎勵，做錯了受懲罰」</strong> 🎯🏆  </p>
-<hr>
-<h1 id="📊-ML-學習筆記"><a href="#📊-ML-學習筆記" class="headerlink" title="📊 ML 學習筆記"></a>📊 <strong>ML 學習筆記</strong></h1><p><strong>機器學習（ML, Machine Learning）</strong> 是找出資料中的複雜函式與規律，主要分為：<br>✔ <strong>回歸（Regression）</strong><br>✔ <strong>分類（Classification）</strong><br>✔ <strong>結構化學習（Structured Learning）</strong>  </p>
-<h1 id="📌-Regression（回歸）"><a href="#📌-Regression（回歸）" class="headerlink" title="📌 Regression（回歸）"></a>📌 <strong>Regression（回歸）</strong></h1><p>當模型的輸出是一個 <strong>連續數值</strong> 時，就屬於回歸，例如：<br>🏠 <strong>房價預測</strong>（輸入：房屋面積、房齡 ➡ 輸出：價格）<br>📈 <strong>銷售量預測</strong>（輸入：天氣、廣告投放量 ➡ 輸出：銷售數量）</p>
-<hr>
-<h2 id="🔢-Simple-Linear-Regression（簡單線性回歸）"><a href="#🔢-Simple-Linear-Regression（簡單線性回歸）" class="headerlink" title="🔢 Simple Linear Regression（簡單線性回歸）"></a>🔢 <strong>Simple Linear Regression（簡單線性回歸）</strong></h2><p>📏 <strong>線性回歸模型公式：</strong><br>$$<br>y &#x3D; wX + b<br>$$</p>
-<p>📌 其中：<br>✅ <strong>y</strong> &#x3D; 預測的數值（目標變數）<br>✅ <strong>X</strong> &#x3D; 輸入變數（Feature）<br>✅ <strong>w</strong> &#x3D; 權重（Weight）<br>✅ <strong>b</strong> &#x3D; 偏差（Bias）  </p>
-<p>當輸入變數只有 <strong>一個</strong> 時，就可以使用 <strong>簡單線性回歸（Simple Linear Regression）</strong>，它的模型是一條直線。</p>
-<hr>
-<h2 id="🔢-Multiple-Regression（多項式回歸）"><a href="#🔢-Multiple-Regression（多項式回歸）" class="headerlink" title="🔢 Multiple Regression（多項式回歸）"></a>🔢 <strong>Multiple Regression（多項式回歸）</strong></h2><p>當輸入變數超過一個時，需要使用 <strong>多元回歸（Multiple Regression）</strong>，其公式如下：</p>
-<p>$$y &#x3D; w_1 X_1 + w_2 X_2 + … + w_n X_n + b$$</p>
-<p>📌 <strong>範例：房價預測</strong><br>輸入變數（Features）：<br>✅ <strong>X₁</strong> &#x3D; 房屋面積<br>✅ <strong>X₂</strong> &#x3D; 房齡<br>✅ <strong>X₃</strong> &#x3D; 房屋所在區域<br>➡ <strong>輸出</strong>：預測房價（y）</p>
-<hr>
-<p>這兩種回歸方法的選擇，取決於數據的特性：<br>✅ <strong>線性關係 → 線性回歸（Simple 或 Multiple Regression）</strong><br>✅ <strong>非線性關係 → 多項式回歸（Polynomial Regression）</strong></p>
-<h2 id="📌-Classification（分類）"><a href="#📌-Classification（分類）" class="headerlink" title="📌 Classification（分類）"></a>📌 <strong>Classification（分類）</strong></h2><p>讓機器在有限選項中做出選擇，例如：<br>📧 <strong>電子郵件分類</strong>（輸入：郵件內容 ➡ 輸出：垃圾郵件 &#x2F; 非垃圾郵件）<br>🐱 <strong>圖片識別</strong>（輸入：圖片 ➡ 輸出：貓 &#x2F; 狗）  </p>
-<hr>
-<h2 id="📌-Structured-Learning（結構化學習）"><a href="#📌-Structured-Learning（結構化學習）" class="headerlink" title="📌 Structured Learning（結構化學習）"></a>📌 <strong>Structured Learning（結構化學習）</strong></h2><p>除了數值預測與分類，機器學習還可以產生<strong>有結構的輸出</strong>，例如：<br>🎨 <strong>生成圖像</strong>（如 DALL·E）<br>📝 <strong>自動寫作</strong>（如 ChatGPT）<br>🌍 <strong>自動翻譯</strong>（如 Google 翻譯）  </p>
-<hr>
-<h1 id="⚙-機器學習的核心步驟"><a href="#⚙-機器學習的核心步驟" class="headerlink" title="⚙ 機器學習的核心步驟"></a>⚙ <strong>機器學習的核心步驟</strong></h1><h2 id="🏗-1-找出函式與模型設計"><a href="#🏗-1-找出函式與模型設計" class="headerlink" title="🏗 1. 找出函式與模型設計"></a>🏗 1. <strong>找出函式與模型設計</strong></h2><p>要找到合適的函式，需要一定的 <strong>領域知識（Domain Knowledge）</strong>。  </p>
-<hr>
-<h2 id="2-梯度下降與誤差函數-最適合的參數"><a href="#2-梯度下降與誤差函數-最適合的參數" class="headerlink" title="2. 梯度下降與誤差函數(最適合的參數)"></a>2. 梯度下降與誤差函數(最適合的參數)</h2><h3 id="均方誤差（MSE-Mean-Squared-Error）"><a href="#均方誤差（MSE-Mean-Squared-Error）" class="headerlink" title="均方誤差（MSE, Mean Squared Error）"></a>均方誤差（MSE, Mean Squared Error）</h3><p>均方誤差用來衡量模型預測值與真實值之間的平均平方差異。</p>
-<p>$$<br>\text{MSE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - \hat{y}_i)^2<br>$$</p>
-<h3 id="平均絕對誤差（MAE-Mean-Absolute-Error）"><a href="#平均絕對誤差（MAE-Mean-Absolute-Error）" class="headerlink" title="平均絕對誤差（MAE, Mean Absolute Error）"></a>平均絕對誤差（MAE, Mean Absolute Error）</h3><p>平均絕對誤差用來衡量模型預測值與真實值之間的平均絕對差異。</p>
-<p>$$<br>\text{MAE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} |y_i - \hat{y}_i|<br>$$</p>
-<h3 id="梯度下降法（Gradient-Descent）"><a href="#梯度下降法（Gradient-Descent）" class="headerlink" title="梯度下降法（Gradient Descent）"></a>梯度下降法（Gradient Descent）</h3><p>梯度下降是一種優化算法，透過計算誤差函數對權重的偏導數來更新參數，以最小化誤差。</p>
-<h4 id="3-1-目標函數"><a href="#3-1-目標函數" class="headerlink" title="3.1 目標函數"></a>3.1 目標函數</h4><p>對於線性回歸，假設預測值為：</p>
-<p>$$<br>\hat{y} &#x3D; wx + b<br>$$</p>
-<p>我們的損失函數為 MSE：</p>
-<p>$$<br>L &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - (wx_i + b))^2<br>$$</p>
-<h4 id="3-2-對權重與偏置求導數"><a href="#3-2-對權重與偏置求導數" class="headerlink" title="3.2 對權重與偏置求導數"></a>3.2 對權重與偏置求導數</h4><p>對權重 (w) 求偏導數：</p>
-<p>$$<br>\frac{\partial L}{\partial w} &#x3D; -\frac{2}{n} \sum_{i&#x3D;1}^{n} x_i (y_i - (wx_i + b))<br>$$</p>
-<p>對偏置 (b) 求偏導數：</p>
-<p>$$<br>\frac{\partial L}{\partial b} &#x3D; -\frac{2}{n} \sum_{i&#x3D;1}^{n} (y_i - (wx_i + b))<br>$$</p>
-<h4 id="3-3-梯度更新規則"><a href="#3-3-梯度更新規則" class="headerlink" title="3.3 梯度更新規則"></a>3.3 梯度更新規則</h4><p>使用學習率 (\alpha) 來更新參數：</p>
-<p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w}, \quad b &#x3D; b - \alpha \frac{\partial L}{\partial b}<br>$$</p>
-<h3 id="4-局部最小值與優化策略"><a href="#4-局部最小值與優化策略" class="headerlink" title="4. 局部最小值與優化策略"></a>4. 局部最小值與優化策略</h3><ul>
-<li><strong>學習率選擇</strong>：學習率過大可能導致無法收斂，過小則收斂速度過慢。</li>
-<li><strong>動量梯度下降（Momentum Gradient Descent）</strong>：</li>
-</ul>
-<p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w} + \beta v<br>$$</p>
-<p>其中 $$(\beta)$$ 是 Momentum 係數，可幫助擺脫局部最小值。</p>
-<hr>
-<p>未完成…<br>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#x75;&#110;&#50;&#48;&#48;&#x36;&#x31;&#x30;&#x33;&#48;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
-<p>#機器學習 #人工智慧 #深度學習 #數據分析 #科技趨勢 #AI</p>
-]]></content>
-      <categories>
-        <category>機器學習</category>
-      </categories>
-      <tags>
-        <tag>機器學習</tag>
       </tags>
   </entry>
   <entry>
