@@ -37,7 +37,7 @@
 </li>
 <li>案例：目前業界最缺數位行銷人材<ul>
 <li>未必要相關科系，甚至高中生也行</li>
-<li>大學跟不上世界趨勢</li>
+<li>大學跟不上世界趨勢-&gt;<strong>再次強調自主學習</strong></li>
 <li>要證明你有這個能力</li>
 </ul>
 </li>
@@ -55,12 +55,12 @@
 </li>
 <li><p>傳統觀念：好學歷&#x3D;好公司</p>
 <ul>
-<li>Pagamo 根本不看學歷</li>
+<li>Pagamo 根本不看學歷，能力很比學歷還重要</li>
 </ul>
 </li>
 <li><p>好奇心將是未來二十年成功者必備的關鍵特質</p>
 <ul>
-<li>不要到大學階段好奇心彈性疲乏</li>
+<li>不要到大學階段好奇心彈性疲乏，傳統學習方式，背、抄</li>
 </ul>
 </li>
 <li><p>記住：世界變化越快，機會越多</p>
@@ -92,7 +92,7 @@
 <h2 id="當今教育的困境"><a href="#當今教育的困境" class="headerlink" title="當今教育的困境"></a>當今教育的困境</h2><p>小鳥只會張嘴等蟲自己跳進嘴裡，所以不要補全科，要有自學能力</p>
 <h1 id="與葉丙成教授的聊天"><a href="#與葉丙成教授的聊天" class="headerlink" title="與葉丙成教授的聊天"></a>與葉丙成教授的聊天</h1><p>我：簡單自我介紹，說明我的目標，學習過程<br><strong>葉教授</strong>：</p>
 <blockquote>
-<p>我覺得你太狹義了，研究體育可以不只可以利用AI實現，所以要去大量看相關論文<br>但AI結合體育是不錯的想法</p>
+<p>我覺得你的想法太狹義了，研究體育可以不只可以利用AI實現，<br>所以要去大量看相關論文<br>但AI結合體育是不錯的想法</p>
 </blockquote>
 <p><strong>葉教授</strong>：</p>
 <blockquote>
@@ -116,12 +116,75 @@
       </tags>
   </entry>
   <entry>
-    <title>閃電講者:簡報說明</title>
-    <url>/2025/03/08/%E9%96%83%E9%9B%BB%E8%AC%9B%E8%80%85-%E7%B0%A1%E5%A0%B1%E8%AA%AA%E6%98%8E/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe src="https://1drv.ms/p/c/bc2fcb683d062be2/IQSGVMcq4lotSrfx717lYnITAcYAMrubTbN68RSAPzQjygE" width="402" height="327" frameborder="0" scrolling="no"></iframe>
-
-<h1 id="連結1"><a href="#連結1" class="headerlink" title="連結1"></a>連結1</h1><p><a href="https://1drv.ms/p/c/bc2fcb683d062be2/EeiEu7r2Se5Kqgdtm4M52eIBHmXQQ1prEDrXyL2kkY2qdQ">ppt</a></p>
-<h1 id="連結2"><a href="#連結2" class="headerlink" title="連結2"></a>連結2</h1><p><a href="https://docs.google.com/presentation/d/1B49cOcy-cxn7UiiXRAKDZa6vZevPXFzz/edit?usp=drive_link&ouid=116211325903734998895&rtpof=true&sd=true">google</a></p>
+    <title>SITCON學習心得（AI幫忙整理）</title>
+    <url>/2025/03/08/SITCON-AI%E8%AC%9B%E5%BA%A7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="SITCON-2025-論壇逐字稿"><a href="#SITCON-2025-論壇逐字稿" class="headerlink" title="SITCON 2025 論壇逐字稿"></a>SITCON 2025 論壇逐字稿</h1><hr>
+<h3 id="講者介紹"><a href="#講者介紹" class="headerlink" title="講者介紹"></a>講者介紹</h3><p><strong>主持人</strong>：路Ｏ珍女士<br><strong>與談人</strong>：吳Ｏ宇（生成式藝術家、新媒體藝術家）<br><strong>與談人</strong>：李Ｏ樵（軟體工程師、小說家）<br><strong>與談人</strong>：蔡Ｏ翰（資工系教授、數位人文研究者）  </p>
+<hr>
+<h3 id="AI-與創作的關係"><a href="#AI-與創作的關係" class="headerlink" title="AI 與創作的關係"></a>AI 與創作的關係</h3><h4 id="AI-對創作的影響"><a href="#AI-對創作的影響" class="headerlink" title="AI 對創作的影響"></a>AI 對創作的影響</h4><p><strong>吳Ｏ宇</strong></p>
+<ul>
+<li>AI 就像是外骨骼，可以減輕創作者的工作負擔，但最後的創作仍依賴人類的主觀判斷。</li>
+<li>當 AI 讓大量內容的生產變得廉價時，人的審美標準會隨之提升，創作將更關注內心感受與價值，而不只是形式上的堆砌。</li>
+<li>以攝影為例，手機攝影技術的提升導致傳統攝影師不再以銳度為主要追求，而轉向更具獨特性的表現方式，如大光圈的美學。</li>
+<li>AI 生成文本的成本大幅降低，過去字數的長度作為小說成就的標準將失去意義，未來讀者更可能關注的是內容的真實性與情感表達。</li>
+</ul>
+<p><strong>李Ｏ樵</strong></p>
+<ul>
+<li>AI 在創作中的直接幫助較少，但在前期的資料搜集上能夠發揮極大作用，例如快速查找世界各地的相似作品。</li>
+<li>文學創作的價值在於個體的經驗與視角，即使 AI 參與創作，仍需要人類來決定哪些內容是有價值的。</li>
+<li>AI 幫助降低創作門檻，但也促使市場淘汰更平庸的作品，未來只有真正能夠觸動讀者的內容才能被保留下來。</li>
+</ul>
+<p><strong>蔡Ｏ翰</strong></p>
+<ul>
+<li>AI 的發展與藝術創作可以共存，關鍵在於 <strong>揭露創作的過程</strong>。如果創作者能夠清楚標記 AI 參與的程度，那麼這種創作依然可以被視為藝術。</li>
+<li>AI 在歷史研究上提供了極大的幫助，例如分析明朝歷史檔案，發現 400 多名文官同時擔任軍事指揮官，這些結果可作為後續研究的基礎。</li>
+<li>生成式 AI 的作品仍需人類專家進行審查與解讀，否則可能會產生錯誤或誤導性的結果。</li>
+</ul>
+<hr>
+<h3 id="跨領域思維與-AI"><a href="#跨領域思維與-AI" class="headerlink" title="跨領域思維與 AI"></a>跨領域思維與 AI</h3><h4 id="工程思維與創作"><a href="#工程思維與創作" class="headerlink" title="工程思維與創作"></a>工程思維與創作</h4><p><strong>吳Ｏ宇</strong></p>
+<ul>
+<li>以 <strong>工程思維</strong> 進入不同領域能夠提升創作與研究的效率，例如將 Debug 方法應用到文學創作中，透過團隊合作來降低試錯成本。</li>
+<li>AI 就像是創作者的 <strong>外骨骼</strong>，能夠增強個體的知識處理能力，但最終的決策仍然取決於人的價值觀與創意。</li>
+</ul>
+<p><strong>李Ｏ樵</strong></p>
+<ul>
+<li>AI 技術發展迅速，與其專注於深入理解技術細節，不如關注 AI 在自身興趣領域的應用。</li>
+<li>在跨領域探索時，應該尋找與身邊人不同的方向，以增加成功的機率。</li>
+</ul>
+<p><strong>蔡Ｏ翰</strong></p>
+<ul>
+<li>AI 研究的門檻高，開發 AI 需要極大的資本投入，因此建議非專業者專注於應用層面，而非核心技術開發。</li>
+<li>大學教育應該更具彈性，現在的文理分科過於僵化，許多問題需要綜合知識來解決。</li>
+</ul>
+<hr>
+<h3 id="AI-對文化與社會的影響"><a href="#AI-對文化與社會的影響" class="headerlink" title="AI 對文化與社會的影響"></a>AI 對文化與社會的影響</h3><h4 id="AI-如何影響文化與社群媒體"><a href="#AI-如何影響文化與社群媒體" class="headerlink" title="AI 如何影響文化與社群媒體"></a>AI 如何影響文化與社群媒體</h4><p><strong>吳Ｏ宇</strong></p>
+<ul>
+<li>AI 與社群媒體的發展，使得某些創作形式更容易傳播，例如 2015 年的台灣現代詩復興，短詩因為更適合社群平台而受到廣泛關注。</li>
+<li>小說創作相對來說沒有搭上這波風潮，因為長篇內容難以在社群媒體上快速傳播。</li>
+</ul>
+<p><strong>李Ｏ樵</strong></p>
+<ul>
+<li>AI 可能會導致內容的過度生產，但真正經典的作品仍會被留下，因為創作的價值來自於創作者的主觀視角，而不只是技術本身。</li>
+</ul>
+<p><strong>蔡Ｏ翰</strong></p>
+<ul>
+<li>AI 發展可能讓部分專業工作發生變化，例如歷史學家的研究方式將從資料蒐集轉向詮釋與驗證 AI 生成的分析結果。</li>
+<li>台灣應該發展自己的 AI 語言模型，以避免依賴國外技術而受到文化與價值觀的影響。</li>
+</ul>
+<hr>
+<h3 id="AI-在教育與學習的應用"><a href="#AI-在教育與學習的應用" class="headerlink" title="AI 在教育與學習的應用"></a>AI 在教育與學習的應用</h3><h4 id="AI-對學習與思維模式的影響"><a href="#AI-對學習與思維模式的影響" class="headerlink" title="AI 對學習與思維模式的影響"></a>AI 對學習與思維模式的影響</h4><p><strong>蔡Ｏ翰</strong></p>
+<ul>
+<li>AI 讓學習資源更容易獲取，但核心仍在於如何應用這些技術來增強自身能力。</li>
+<li>建議學生關注 AI 在自己領域的應用，而不必深究 AI 的技術細節，除非計畫專攻該領域。</li>
+</ul>
+<p><strong>李Ｏ樵</strong></p>
+<ul>
+<li>應該勇於探索不同的領域，尤其是那些較少人關注的領域，這樣可以提高未來發展的機會。</li>
+</ul>
+<h1 id="講師論壇"><a href="#講師論壇" class="headerlink" title="講師論壇"></a>講師論壇</h1><p>講者CCLin:</p>
+<blockquote>
+<p>AI套件，使用的好，精度很高，沒必要一個個手刻，實際也很難全刻出來<br>但我的學習方式是好的，很扎實</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>心得</category>
@@ -137,7 +200,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<h2 id="請問可以幫我看看觀念是否正確嗎拜託"><a href="#請問可以幫我看看觀念是否正確嗎拜託" class="headerlink" title="請問可以幫我看看觀念是否正確嗎拜託"></a>請問可以幫我看看觀念是否正確嗎拜託</h2><h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a><strong>機器學習</strong></h1><p>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#117;&#110;&#50;&#x30;&#x30;&#x36;&#x31;&#x30;&#x33;&#48;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
+<h2 id="請問可以幫我看看觀念是否正確嗎拜託"><a href="#請問可以幫我看看觀念是否正確嗎拜託" class="headerlink" title="請問可以幫我看看觀念是否正確嗎拜託"></a>請問可以幫我看看觀念是否正確嗎拜託</h2><h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a><strong>機器學習</strong></h1><p>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#117;&#x6e;&#50;&#x30;&#48;&#54;&#49;&#48;&#x33;&#48;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
 <hr>
 <h1 id="🤖-人工智慧"><a href="#🤖-人工智慧" class="headerlink" title="🤖 人工智慧"></a>🤖 <strong>人工智慧</strong></h1><p>相信大家這幾年頻繁地聽到 <strong>人工智慧（Artificial Intelligence, AI）</strong>  </p>
 <ul>
@@ -202,7 +265,7 @@
 <p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w} + \beta v<br>$$</p>
 <p>其中 $$(\beta)$$ 是 Momentum 係數，可幫助擺脫局部最小值。</p>
 <hr>
-<p>未完成…<br>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#x75;&#x6e;&#50;&#48;&#x30;&#54;&#49;&#48;&#51;&#48;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
+<p>未完成…<br>📩 <strong>發現錯誤？請來信 <a href="mailto:&#x6a;&#x75;&#110;&#x32;&#48;&#x30;&#x36;&#49;&#x30;&#x33;&#48;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
 <p>#機器學習 #人工智慧 #深度學習 #數據分析 #科技趨勢 #AI</p>
 ]]></content>
       <categories>
@@ -297,7 +360,7 @@
   <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#x6e;&#x32;&#48;&#48;&#54;&#49;&#x30;&#51;&#x30;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#110;&#50;&#48;&#48;&#54;&#49;&#x30;&#x33;&#x30;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen</li>
 </ul>
