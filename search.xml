@@ -200,7 +200,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<h2 id="請問可以幫我看看觀念是否正確嗎拜託"><a href="#請問可以幫我看看觀念是否正確嗎拜託" class="headerlink" title="請問可以幫我看看觀念是否正確嗎拜託"></a>請問可以幫我看看觀念是否正確嗎拜託</h2><h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a><strong>機器學習</strong></h1><p>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#117;&#x6e;&#50;&#x30;&#48;&#54;&#49;&#48;&#x33;&#48;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
+<h2 id="請問可以幫我看看觀念是否正確嗎拜託"><a href="#請問可以幫我看看觀念是否正確嗎拜託" class="headerlink" title="請問可以幫我看看觀念是否正確嗎拜託"></a>請問可以幫我看看觀念是否正確嗎拜託</h2><h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a><strong>機器學習</strong></h1><p>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#117;&#110;&#x32;&#x30;&#x30;&#54;&#x31;&#48;&#51;&#x30;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
 <hr>
 <h1 id="🤖-人工智慧"><a href="#🤖-人工智慧" class="headerlink" title="🤖 人工智慧"></a>🤖 <strong>人工智慧</strong></h1><p>相信大家這幾年頻繁地聽到 <strong>人工智慧（Artificial Intelligence, AI）</strong>  </p>
 <ul>
@@ -217,7 +217,7 @@
 <p>👉 <strong>這就是監督式學習（有標籤的學習方式）</strong>  </p>
 <p>📌 <strong>示例：</strong>  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;機車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br><span class="line"></span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;汽車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br></pre></td></tr></table></figure>
-
+<p>透過反覆觀察及驗證我們學會辨識汽車了</p>
 <hr>
 <h3 id="🎯-Unsupervised-Learning（無監督學習）"><a href="#🎯-Unsupervised-Learning（無監督學習）" class="headerlink" title="🎯 Unsupervised Learning（無監督學習）"></a>🎯 <strong>Unsupervised Learning（無監督學習）</strong></h3><p>這種學習方式<strong>沒有標籤</strong>，機器需要自己分析數據結構，發現數據之間的關聯性或進行分群（Clustering）。  </p>
 <p>📌 <strong>示例：</strong><br>我們觀察交通工具的不同特徵，自己歸類哪些是 <strong>汽車、機車或卡車</strong>。<br>👉 <strong>白話點來說，就是讓機器自己學習！</strong>  </p>
@@ -241,9 +241,35 @@
 <hr>
 <h2 id="📌-Structured-Learning（結構化學習）"><a href="#📌-Structured-Learning（結構化學習）" class="headerlink" title="📌 Structured Learning（結構化學習）"></a>📌 <strong>Structured Learning（結構化學習）</strong></h2><p>除了數值預測與分類，機器學習還可以產生<strong>有結構的輸出</strong>，例如：<br>🎨 <strong>生成圖像</strong>（如 DALL·E）<br>📝 <strong>自動寫作</strong>（如 ChatGPT）<br>🌍 <strong>自動翻譯</strong>（如 Google 翻譯）  </p>
 <hr>
-<h1 id="⚙-機器學習的核心步驟"><a href="#⚙-機器學習的核心步驟" class="headerlink" title="⚙ 機器學習的核心步驟"></a>⚙ <strong>機器學習的核心步驟</strong></h1><h2 id="🏗-1-找出函式與模型設計"><a href="#🏗-1-找出函式與模型設計" class="headerlink" title="🏗 1. 找出函式與模型設計"></a>🏗 1. <strong>找出函式與模型設計</strong></h2><p>要找到合適的函式，需要一定的 <strong>領域知識（Domain Knowledge）</strong>。  </p>
+<h1 id="⚙-機器學習的核心步驟"><a href="#⚙-機器學習的核心步驟" class="headerlink" title="⚙ 機器學習的核心步驟"></a>⚙ <strong>機器學習的核心步驟</strong></h1><h2 id="資料整理"><a href="#資料整理" class="headerlink" title="資料整理"></a><strong>資料整理</strong></h2><p>資料可能是一維二維甚至多維，且資料不一定都是完整的，透過檢定清理缺失值或是無意義值</p>
+<h3 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h3><details>
+  <summary>Transformation 說明</summary>
+  <details>
+    <summary>資料</summary>
+
+<pre><code>**方式1**  
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">index,value</span><br><span class="line">0, &quot;屏東&quot;</span><br><span class="line">1, &quot;台南&quot;</span><br><span class="line">2, &quot;高雄&quot;</span><br><span class="line">3, &quot;屏東&quot;</span><br></pre></td></tr></table></figure>
+可以透過 `map` 轉換成代數
+</code></pre>
+  </details>
+
+  <details>
+    <summary>Python</summary>
+
+<pre><code>**方式1**  
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">df[<span class="string">&quot;value&quot;</span>] = df[<span class="string">&quot;value&quot;</span>].<span class="built_in">map</span>(&#123;<span class="string">&quot;屏東:0&quot;</span>,<span class="string">&quot;高雄&quot;</span>:<span class="number">1</span>,<span class="string">&quot;台南&quot;</span>:<span class="number">0</span>&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</code></pre>
+  </details>
+
+<p>透過python中的map與字典轉換成代數</p>
+</details>
+
+
+
+
+<h3 id="One-Hot-Encoder"><a href="#One-Hot-Encoder" class="headerlink" title="One Hot Encoder"></a>One Hot Encoder</h3><h3 id="heatmap"><a href="#heatmap" class="headerlink" title="heatmap"></a>heatmap</h3><h2 id="🏗-找出函式與模型設計"><a href="#🏗-找出函式與模型設計" class="headerlink" title="🏗  找出函式與模型設計"></a>🏗  <strong>找出函式與模型設計</strong></h2><p>要找到合適的函式，需要一定的 <strong>領域知識（Domain Knowledge）</strong>。  </p>
 <hr>
-<h2 id="2-梯度下降與誤差函數-最適合的參數"><a href="#2-梯度下降與誤差函數-最適合的參數" class="headerlink" title="2. 梯度下降與誤差函數(最適合的參數)"></a>2. 梯度下降與誤差函數(最適合的參數)</h2><h3 id="均方誤差（MSE-Mean-Squared-Error）"><a href="#均方誤差（MSE-Mean-Squared-Error）" class="headerlink" title="均方誤差（MSE, Mean Squared Error）"></a>均方誤差（MSE, Mean Squared Error）</h3><p>均方誤差用來衡量模型預測值與真實值之間的平均平方差異。</p>
+<h2 id="梯度下降與誤差函數-最適合的參數"><a href="#梯度下降與誤差函數-最適合的參數" class="headerlink" title="梯度下降與誤差函數(最適合的參數)"></a>梯度下降與誤差函數(最適合的參數)</h2><h3 id="均方誤差（MSE-Mean-Squared-Error）"><a href="#均方誤差（MSE-Mean-Squared-Error）" class="headerlink" title="均方誤差（MSE, Mean Squared Error）"></a>均方誤差（MSE, Mean Squared Error）</h3><p>均方誤差用來衡量模型預測值與真實值之間的平均平方差異。</p>
 <p>$$<br>\text{MSE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - \hat{y}_i)^2<br>$$</p>
 <h3 id="平均絕對誤差（MAE-Mean-Absolute-Error）"><a href="#平均絕對誤差（MAE-Mean-Absolute-Error）" class="headerlink" title="平均絕對誤差（MAE, Mean Absolute Error）"></a>平均絕對誤差（MAE, Mean Absolute Error）</h3><p>平均絕對誤差用來衡量模型預測值與真實值之間的平均絕對差異。</p>
 <p>$$<br>\text{MAE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} |y_i - \hat{y}_i|<br>$$</p>
@@ -265,7 +291,7 @@
 <p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w} + \beta v<br>$$</p>
 <p>其中 $$(\beta)$$ 是 Momentum 係數，可幫助擺脫局部最小值。</p>
 <hr>
-<p>未完成…<br>📩 <strong>發現錯誤？請來信 <a href="mailto:&#x6a;&#x75;&#110;&#x32;&#48;&#x30;&#x36;&#49;&#x30;&#x33;&#48;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
+<p>未完成…<br>📩 <strong>發現錯誤？請來信 <a href="mailto:&#x6a;&#117;&#110;&#50;&#48;&#48;&#x36;&#49;&#48;&#x33;&#x30;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
 <p>#機器學習 #人工智慧 #深度學習 #數據分析 #科技趨勢 #AI</p>
 ]]></content>
       <categories>
@@ -360,7 +386,7 @@
   <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#110;&#50;&#48;&#48;&#54;&#49;&#x30;&#x33;&#x30;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#106;&#117;&#110;&#x32;&#48;&#x30;&#54;&#49;&#48;&#51;&#48;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen</li>
 </ul>
