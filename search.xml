@@ -19,6 +19,47 @@
       </tags>
   </entry>
   <entry>
+    <title>人工智慧機器學習(一)</title>
+    <url>/2025/04/02/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h1 id="人工智慧與機器學習（一）"><a href="#人工智慧與機器學習（一）" class="headerlink" title="人工智慧與機器學習（一）"></a>人工智慧與機器學習（一）</h1><h2 id="人工智慧機器學習"><a href="#人工智慧機器學習" class="headerlink" title="人工智慧機器學習"></a>人工智慧機器學習</h2><p>大家好！在這份報告中，我們要介紹人工智慧和機器學習。</p>
+<p>人工智慧（Artificial Intelligence, <strong>AI</strong>，整篇文章皆以 AI 代替）在這幾年間頻繁地出現在我們的生活中，彷彿只要某樣產品冠上 <strong>“AI”</strong>，它就會變得更加便利、智能。</p>
+<p>例如：</p>
+<ul>
+<li><strong>AI 掃地機器人</strong></li>
+<li><strong>AI 汽車</strong></li>
+<li><strong>AI 電鍋</strong><br>這些東西通通被冠上了「AI」，那 <strong>AI 到底是什麼呢？</strong></li>
+</ul>
+<h2 id="什麼是智慧？"><a href="#什麼是智慧？" class="headerlink" title="什麼是智慧？"></a>什麼是智慧？</h2><p>要真正理解 <strong>人工智慧</strong>，我們首先要了解何謂 <strong>智慧</strong>。請各位先思考一下：</p>
+<blockquote>
+<p>什麼是智慧？</p>
+</blockquote>
+<p>依鄙人對智慧的看法，智慧是指：</p>
+<blockquote>
+<p><strong>「有意識或無意識地執行行為，包括判斷、思考、預測等能力。」</strong></p>
+</blockquote>
+<p>人類的智慧極為強大，舉例來說，當我們辨識一張圖片時，大腦需要經過數百萬次的運算，才能判斷這張圖片的內容。</p>
+<p>事實上，人類的智慧是非常強大的。當您要辨識一張圖片時，大腦要經過數百萬條運算，才能知道這是什麼東西。</p>
+<p>回憶起您的小時候，那時無知懵懂的您，對所有的事物皆感到好奇，於是看到什麼就問什麼，透過學習來增長自己的知識以及智慧，這就是人類的智慧。</p>
+<h2 id="人工智慧的概念"><a href="#人工智慧的概念" class="headerlink" title="人工智慧的概念"></a>人工智慧的概念</h2><p>人工智慧的概念，便是利用電腦（如 <strong>CPU、GPU、記憶體等硬體</strong>）來模擬人類智慧的功能。</p>
+<p>換句話說，<strong>AI 就是人類試圖讓電腦模仿大腦的智慧運作方式。</strong></p>
+<p>簡單來說，<strong>人工智慧就是人類試圖利用電腦來模仿大腦的智慧功能。</strong></p>
+<p>事實上，人類長久以來都在從生物中汲取靈感，例如：</p>
+<blockquote>
+<p><strong>飛機的機翼設計便是模仿鳥類翅膀的運作方式。</strong></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>機器學習</category>
+      </categories>
+      <tags>
+        <tag>機器學習</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新生入學說明會</title>
     <url>/2025/03/22/%E6%96%B0%E7%94%9F%E5%85%A5%E5%AD%B8%E8%AA%AA%E6%98%8E%E6%9C%83/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="南華大學特殊選才與繁星入學新生說明會"><a href="#南華大學特殊選才與繁星入學新生說明會" class="headerlink" title="南華大學特殊選才與繁星入學新生說明會"></a>南華大學特殊選才與繁星入學新生說明會</h1><h2 id="希望可以透過此次說明會更了解校園"><a href="#希望可以透過此次說明會更了解校園" class="headerlink" title="希望可以透過此次說明會更了解校園"></a>希望可以透過此次說明會更了解校園</h2><h3 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h3><p>踏入校園便被優美的環境震攝，太陽的照耀下映射了學校的書卷氣息，美麗綻放的花朵，充滿安靜和諧的校園，以及樹上的鳥鳴聲，讓我一進入就如同踏入仙境一般，清淨、放鬆，且師生互動熱情，剛進來就感受到學長們的「熱烈招待」，以及主任的關心，優美正氣的環境。</p>
@@ -227,114 +268,6 @@
       </tags>
   </entry>
   <entry>
-    <title>機器學習</title>
-    <url>/2025/03/04/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-<h2 id="請問可以幫我看看觀念是否正確嗎拜託"><a href="#請問可以幫我看看觀念是否正確嗎拜託" class="headerlink" title="請問可以幫我看看觀念是否正確嗎拜託"></a>請問可以幫我看看觀念是否正確嗎拜託</h2><h1 id="機器學習"><a href="#機器學習" class="headerlink" title="機器學習"></a><strong>機器學習</strong></h1><p>📩 <strong>發現錯誤？請來信 <a href="mailto:&#x6a;&#x75;&#110;&#x32;&#x30;&#48;&#x36;&#x31;&#48;&#x33;&#x30;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
-<hr>
-<h1 id="🤖-人工智慧"><a href="#🤖-人工智慧" class="headerlink" title="🤖 人工智慧"></a>🤖 <strong>人工智慧</strong></h1><p>相信大家這幾年頻繁地聽到 <strong>人工智慧（Artificial Intelligence, AI）</strong>  </p>
-<ul>
-<li><strong>AI 掃把</strong>  </li>
-<li><strong>AI 電鍋</strong></li>
-</ul>
-<p>幾乎什麼東西都可以被灌上 AI 這兩個字了！<br>但要理解 AI，首先要問：<strong>何為智慧？</strong>  </p>
-<blockquote>
-<p><strong>有意識或無意識的執行行為，判斷、思考、預測等，都是屬於智慧。</strong>  </p>
-</blockquote>
-<p><strong>人工智慧</strong> 就是透過模仿人類的思考及智慧，而 <strong>人類智慧來自學習</strong>。<br><strong>專業一點來說，任何模仿人類思考的系統或稱模型、函數都可以被稱為人工智慧</strong><br>其中最具有代表性的叫做<strong>機器學習</strong>  </p>
-<hr>
-<h1 id="🔍-機器學習的三大類別"><a href="#🔍-機器學習的三大類別" class="headerlink" title="🔍 機器學習的三大類別"></a>🔍 <strong>機器學習的三大類別</strong></h1><h3 id="🎯-Supervised-Learning（監督式學習）"><a href="#🎯-Supervised-Learning（監督式學習）" class="headerlink" title="🎯 Supervised Learning（監督式學習）"></a>🎯 <strong>Supervised Learning（監督式學習）</strong></h3><p><strong>回想我們小時候是如何學習的？</strong><br>當我們看到一輛擁有四個輪子、前方有兩個燈的交通工具時，我們猜這是「機車」，但媽媽告訴我們：「這是汽車。」  </p>
-<p>👉 <strong>這就是監督式學習（有標籤的學習方式）</strong>  </p>
-<p>📌 <strong>示例：</strong>  </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;機車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br><span class="line"></span><br><span class="line">特徵 = [&quot;四個輪子&quot;, &quot;有車燈&quot;, &quot;黑色&quot;]</span><br><span class="line">猜測 = [&quot;汽車&quot;]</span><br><span class="line">標籤 = [&quot;汽車&quot;]</span><br></pre></td></tr></table></figure>
-<p>透過反覆觀察及驗證我們學會辨識汽車了</p>
-<hr>
-<h3 id="🎯-Unsupervised-Learning（無監督學習）"><a href="#🎯-Unsupervised-Learning（無監督學習）" class="headerlink" title="🎯 Unsupervised Learning（無監督學習）"></a>🎯 <strong>Unsupervised Learning（無監督學習）</strong></h3><p>這種學習方式<strong>沒有標籤</strong>，機器需要自己分析數據結構，發現數據之間的關聯性或進行分群（Clustering）。  </p>
-<p>📌 <strong>示例：</strong><br>我們觀察交通工具的不同特徵，自己歸類哪些是 <strong>汽車、機車或卡車</strong>。<br>👉 <strong>白話點來說，就是讓機器自己學習！</strong>  </p>
-<hr>
-<h3 id="🎯-Reinforcement-Learning（強化學習）"><a href="#🎯-Reinforcement-Learning（強化學習）" class="headerlink" title="🎯 Reinforcement Learning（強化學習）"></a>🎯 <strong>Reinforcement Learning（強化學習）</strong></h3><p>這種學習方式透過 <strong>獎勵與懲罰機制</strong> 來讓機器學習最佳決策，常見於 <strong>遊戲 AI、自動駕駛等領域</strong> 🚗💨  </p>
-<p>📌 <strong>示例：</strong><br>學騎腳踏車時，我們可能會跌倒，但經過不斷調整，最終找到最佳的平衡方式！<br>👉 <strong>白話來說，就是「做對了給獎勵，做錯了受懲罰」</strong> 🎯🏆  </p>
-<hr>
-<h1 id="📊-ML-學習筆記"><a href="#📊-ML-學習筆記" class="headerlink" title="📊 ML 學習筆記"></a>📊 <strong>ML 學習筆記</strong></h1><p><strong>機器學習（ML, Machine Learning）</strong> 是找出資料中的複雜函式與規律，主要分為：<br>✔ <strong>回歸（Regression）</strong><br>✔ <strong>分類（Classification）</strong><br>✔ <strong>結構化學習（Structured Learning）</strong>  </p>
-<h1 id="📌-Regression（回歸）"><a href="#📌-Regression（回歸）" class="headerlink" title="📌 Regression（回歸）"></a>📌 <strong>Regression（回歸）</strong></h1><p>當模型的輸出是一個 <strong>連續數值</strong> 時，就屬於回歸，例如：<br>🏠 <strong>房價預測</strong>（輸入：房屋面積、房齡 ➡ 輸出：價格）<br>📈 <strong>銷售量預測</strong>（輸入：天氣、廣告投放量 ➡ 輸出：銷售數量）</p>
-<hr>
-<h2 id="🔢-Simple-Linear-Regression（簡單線性回歸）"><a href="#🔢-Simple-Linear-Regression（簡單線性回歸）" class="headerlink" title="🔢 Simple Linear Regression（簡單線性回歸）"></a>🔢 <strong>Simple Linear Regression（簡單線性回歸）</strong></h2><p>📏 <strong>線性回歸模型公式：</strong><br>$$<br>y &#x3D; wX + b<br>$$</p>
-<p>📌 其中：<br>✅ <strong>y</strong> &#x3D; 預測的數值（目標變數）<br>✅ <strong>X</strong> &#x3D; 輸入變數（Feature）<br>✅ <strong>w</strong> &#x3D; 權重（Weight）<br>✅ <strong>b</strong> &#x3D; 偏差（Bias）  </p>
-<p>當輸入變數只有 <strong>一個</strong> 時，就可以使用 <strong>簡單線性回歸（Simple Linear Regression）</strong>，它的模型是一條直線。</p>
-<hr>
-<h2 id="🔢-Multiple-Regression（多項式回歸）"><a href="#🔢-Multiple-Regression（多項式回歸）" class="headerlink" title="🔢 Multiple Regression（多項式回歸）"></a>🔢 <strong>Multiple Regression（多項式回歸）</strong></h2><p>當輸入變數超過一個時，需要使用 <strong>多元回歸（Multiple Regression）</strong>，其公式如下：</p>
-<p>$$y &#x3D; w_1 X_1 + w_2 X_2 + … + w_n X_n + b$$</p>
-<p>📌 <strong>範例：房價預測</strong><br>輸入變數（Features）：<br>✅ <strong>X₁</strong> &#x3D; 房屋面積<br>✅ <strong>X₂</strong> &#x3D; 房齡<br>✅ <strong>X₃</strong> &#x3D; 房屋所在區域<br>➡ <strong>輸出</strong>：預測房價（y）</p>
-<hr>
-<p>這兩種回歸方法的選擇，取決於數據的特性：<br>✅ <strong>線性關係 → 線性回歸（Simple 或 Multiple Regression）</strong><br>✅ <strong>非線性關係 → 多項式回歸（Polynomial Regression）</strong></p>
-<h2 id="📌-Classification（分類）"><a href="#📌-Classification（分類）" class="headerlink" title="📌 Classification（分類）"></a>📌 <strong>Classification（分類）</strong></h2><p>讓機器在有限選項中做出選擇，例如：<br>📧 <strong>電子郵件分類</strong>（輸入：郵件內容 ➡ 輸出：垃圾郵件 &#x2F; 非垃圾郵件）<br>🐱 <strong>圖片識別</strong>（輸入：圖片 ➡ 輸出：貓 &#x2F; 狗）  </p>
-<hr>
-<h2 id="📌-Structured-Learning（結構化學習）"><a href="#📌-Structured-Learning（結構化學習）" class="headerlink" title="📌 Structured Learning（結構化學習）"></a>📌 <strong>Structured Learning（結構化學習）</strong></h2><p>除了數值預測與分類，機器學習還可以產生<strong>有結構的輸出</strong>，例如：<br>🎨 <strong>生成圖像</strong>（如 DALL·E）<br>📝 <strong>自動寫作</strong>（如 ChatGPT）<br>🌍 <strong>自動翻譯</strong>（如 Google 翻譯）  </p>
-<hr>
-<h1 id="⚙-機器學習的核心步驟"><a href="#⚙-機器學習的核心步驟" class="headerlink" title="⚙ 機器學習的核心步驟"></a>⚙ <strong>機器學習的核心步驟</strong></h1><h2 id="資料整理"><a href="#資料整理" class="headerlink" title="資料整理"></a><strong>資料整理</strong></h2><p>資料可能是一維二維甚至多維，且資料不一定都是完整的，透過檢定清理缺失值或是無意義值</p>
-<h3 id="Transformation"><a href="#Transformation" class="headerlink" title="Transformation"></a>Transformation</h3><details>
-  <summary>Transformation 說明</summary>
-  <details>
-    <summary>資料</summary>
-
-<pre><code>**方式1**  
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">index,value</span><br><span class="line">0, &quot;屏東&quot;</span><br><span class="line">1, &quot;台南&quot;</span><br><span class="line">2, &quot;高雄&quot;</span><br><span class="line">3, &quot;屏東&quot;</span><br></pre></td></tr></table></figure>
-可以透過 `map` 轉換成代數
-</code></pre>
-  </details>
-
-  <details>
-    <summary>Python</summary>
-
-<pre><code>**方式1**  
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">df[<span class="string">&quot;value&quot;</span>] = df[<span class="string">&quot;value&quot;</span>].<span class="built_in">map</span>(&#123;<span class="string">&quot;屏東:0&quot;</span>,<span class="string">&quot;高雄&quot;</span>:<span class="number">1</span>,<span class="string">&quot;台南&quot;</span>:<span class="number">0</span>&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</code></pre>
-  </details>
-
-<p>透過python中的map與字典轉換成代數</p>
-</details>
-
-
-
-
-<h3 id="One-Hot-Encoder"><a href="#One-Hot-Encoder" class="headerlink" title="One Hot Encoder"></a>One Hot Encoder</h3><h3 id="heatmap"><a href="#heatmap" class="headerlink" title="heatmap"></a>heatmap</h3><h2 id="🏗-找出函式與模型設計"><a href="#🏗-找出函式與模型設計" class="headerlink" title="🏗  找出函式與模型設計"></a>🏗  <strong>找出函式與模型設計</strong></h2><p>要找到合適的函式，需要一定的 <strong>領域知識（Domain Knowledge）</strong>。  </p>
-<hr>
-<h2 id="梯度下降與誤差函數-最適合的參數"><a href="#梯度下降與誤差函數-最適合的參數" class="headerlink" title="梯度下降與誤差函數(最適合的參數)"></a>梯度下降與誤差函數(最適合的參數)</h2><h3 id="均方誤差（MSE-Mean-Squared-Error）"><a href="#均方誤差（MSE-Mean-Squared-Error）" class="headerlink" title="均方誤差（MSE, Mean Squared Error）"></a>均方誤差（MSE, Mean Squared Error）</h3><p>均方誤差用來衡量模型預測值與真實值之間的平均平方差異。</p>
-<p>$$<br>\text{MSE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - \hat{y}_i)^2<br>$$</p>
-<h3 id="平均絕對誤差（MAE-Mean-Absolute-Error）"><a href="#平均絕對誤差（MAE-Mean-Absolute-Error）" class="headerlink" title="平均絕對誤差（MAE, Mean Absolute Error）"></a>平均絕對誤差（MAE, Mean Absolute Error）</h3><p>平均絕對誤差用來衡量模型預測值與真實值之間的平均絕對差異。</p>
-<p>$$<br>\text{MAE} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} |y_i - \hat{y}_i|<br>$$</p>
-<h3 id="梯度下降法（Gradient-Descent）"><a href="#梯度下降法（Gradient-Descent）" class="headerlink" title="梯度下降法（Gradient Descent）"></a>梯度下降法（Gradient Descent）</h3><p>梯度下降是一種優化算法，透過計算誤差函數對權重的偏導數來更新參數，以最小化誤差。</p>
-<h4 id="3-1-目標函數"><a href="#3-1-目標函數" class="headerlink" title="3.1 目標函數"></a>3.1 目標函數</h4><p>對於線性回歸，假設預測值為：</p>
-<p>$$<br>\hat{y} &#x3D; wx + b<br>$$</p>
-<p>我們的損失函數為 MSE：</p>
-<p>$$<br>L &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} (y_i - (wx_i + b))^2<br>$$</p>
-<h4 id="3-2-對權重與偏置求導數"><a href="#3-2-對權重與偏置求導數" class="headerlink" title="3.2 對權重與偏置求導數"></a>3.2 對權重與偏置求導數</h4><p>對權重 (w) 求偏導數：</p>
-<p>$$<br>\frac{\partial L}{\partial w} &#x3D; -\frac{2}{n} \sum_{i&#x3D;1}^{n} x_i (y_i - (wx_i + b))<br>$$</p>
-<p>對偏置 (b) 求偏導數：</p>
-<p>$$<br>\frac{\partial L}{\partial b} &#x3D; -\frac{2}{n} \sum_{i&#x3D;1}^{n} (y_i - (wx_i + b))<br>$$</p>
-<h4 id="3-3-梯度更新規則"><a href="#3-3-梯度更新規則" class="headerlink" title="3.3 梯度更新規則"></a>3.3 梯度更新規則</h4><p>使用學習率 (\alpha) 來更新參數：</p>
-<p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w}, \quad b &#x3D; b - \alpha \frac{\partial L}{\partial b}<br>$$</p>
-<h3 id="4-局部最小值與優化策略"><a href="#4-局部最小值與優化策略" class="headerlink" title="4. 局部最小值與優化策略"></a>4. 局部最小值與優化策略</h3><ul>
-<li><strong>學習率選擇</strong>：學習率過大可能導致無法收斂，過小則收斂速度過慢。</li>
-<li><strong>動量梯度下降（Momentum Gradient Descent）</strong>：</li>
-</ul>
-<p>$$<br> w &#x3D; w - \alpha \frac{\partial L}{\partial w} + \beta v<br>$$</p>
-<p>其中 $$(\beta)$$ 是 Momentum 係數，可幫助擺脫局部最小值。</p>
-<hr>
-<p>未完成…<br>📩 <strong>發現錯誤？請來信 <a href="mailto:&#106;&#x75;&#x6e;&#50;&#48;&#48;&#x36;&#x31;&#x30;&#51;&#x30;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">jun20061030@gmail.com</a> 或填寫表單</strong> 👉 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">🔗 點我填寫</a>  </p>
-<p>#機器學習 #人工智慧 #深度學習 #數據分析 #科技趨勢 #AI</p>
-]]></content>
-      <categories>
-        <category>機器學習</category>
-      </categories>
-      <tags>
-        <tag>機器學習</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>1、2月份紀錄</title>
     <url>/2025/03/03/1%E3%80%812%E6%9C%88%E4%BB%BD%E7%B4%80%E9%8C%84/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="學習目標"><a href="#學習目標" class="headerlink" title="學習目標"></a>學習目標</h1><p>感謝南華教授們的認可，讓我在1月就確定有學校可以就讀<br>基於，對技術的熱愛、以及想研究撐竿高的熱血<br>制定了以下目標去學習程式設計</p>
@@ -419,7 +352,7 @@
   <entry>
     <title>python程式設計</title>
     <url>/2025/01/31/python%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#110;&#50;&#x30;&#x30;&#x36;&#49;&#x30;&#51;&#48;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>有錯誤麻煩拜託寫信給 <a href="mailto:&#x6a;&#117;&#x6e;&#x32;&#x30;&#x30;&#54;&#x31;&#x30;&#51;&#48;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">jun20061030@gmail.com</a><br>或填寫此表單 <a href="https://forms.gle/8ba6PxkGUZME6V6X6">https://forms.gle/8ba6PxkGUZME6V6X6</a><br><a href="https://forms.gle/8ba6PxkGUZME6V6X6">連結</a></p>
 <h1 id="pythont程式設計"><a href="#pythont程式設計" class="headerlink" title="pythont程式設計"></a>pythont程式設計</h1><ul>
 <li>作者：Juhn Chen</li>
 </ul>
